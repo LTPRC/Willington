@@ -1,6 +1,6 @@
 # Syllabus
 
-## :mortar_board: BAT101 - [Orientation of SDE](src/main/java/com/github/ltprc/bat/README.md)
+## :mortar_board: BAT101 - [Orientation of SDE](./BAT101.md)
 
 主要讲述如何准备面试、如何预判技术面试和HR面试的常见难题并迎刃而解的相关技巧。
 
