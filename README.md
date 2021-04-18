@@ -4,4 +4,4 @@ Willington项目旨在为那些心中信念不甘熄灭、志在职业生涯伟�
 
 Project Willington aims to support and communicate with comrades willing to achieve bright prospect on the way to their revival by entering/re-entering top domestic or international IT enterprises and achieving their career goals. This project is continuously being constructed. Suggestions and opinions will always be welcomed.
 
-点击前往 Click for - [Syllabus](syllabus.md)
+点击前往 Click for - [Syllabus](./academy/syllabus.md)
