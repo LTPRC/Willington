@@ -1,4 +1,6 @@
-# Syllabus
+# Bulletin
+
+课程大纲/Syllabus 如下所示：
 
 ## :mortar_board: SDE101 - [Orientation of SDE](./SDE101.md)
 
@@ -6,7 +8,7 @@
 
 ## :coffee: CSE174 - Introduction of Programming
 
-最最基础的Java编程知识，适合编程零基础的同学参考。
+最最基础的入门级Java编程知识，适合编程零基础的同学参考。
 
 ## :coffee: CSE271 - [Object-Oriented Programming](./CSE271.md)
 
