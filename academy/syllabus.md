@@ -8,11 +8,11 @@
 
 最最基础的Java编程知识，适合编程零基础的同学参考。
 
-## :coffee: CSE271 - Object-Oriented Programming
+## :coffee: CSE271 - [Object-Oriented Programming](./CSE271.md)
 
 关于Java面向对象编程的相关信息，一起玩转JDK的一个个细节。
 
-## :nut_and_bolt: CSE272 - Design Pattern
+## :nut_and_bolt: CSE272 - Design Patterns
 
 23种常见设计模式以及代码实现的示范。
 
