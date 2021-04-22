@@ -18,7 +18,7 @@
 
 **:art:CSE121 - [Introduction of Front-end Development](./CSE121.md)**
 
-简述前端开发相关知识。
+前端技术的发展。
 
 **:computer: CSE174 - Introduction of Programming**
 
@@ -28,7 +28,7 @@
 
 关于Java面向对象编程的相关信息，一起玩转JDK的一个个细节。
 
-**:nut_and_bolt: CSE272 - Design Patterns**
+**:nut_and_bolt: CSE272 - [Design Patterns](./CSE272.md)**
 
 23种常见设计模式以及代码实现的示范。
 
