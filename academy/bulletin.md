@@ -12,7 +12,11 @@
 
 主要讲述如何准备面试、如何预判技术面试和HR面试的常见难题并迎刃而解的相关技巧。
 
-**:coffee: CSE174 - Introduction of Programming**
+**:rocket: SDE121 - [Introduction of Agile](./SDE101.md)**
+
+敏捷开发相关知识的概述。
+
+**:computer: CSE174 - Introduction of Programming**
 
 最最基础的入门级Java编程知识，适合编程零基础的同学参考。
 
