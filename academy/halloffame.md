@@ -34,6 +34,7 @@
 | netease   | 网易       | 校招面试、面经                     | <img src="./icons/netease.gif" />   |
 | paypal    | PayPal     | 社招面试、面经                     | <img src="./icons/paypal.gif" />    |
 | pingan    | 平安银行   | 面经                               | <img src="./icons/pingan.gif" />    |
+| sf        | 顺丰       | 面经                               | <img src="./icons/sf.gif" />        |
 | sohu      | 搜狐       | 校招面试                           | <img src="./icons/sohu.gif" />      |
 | tencent   | 腾讯       | 面经、技术方案                     | <img src="./icons/tencent.gif" />   |
 | tr        | 汤森路透   | 校招面试                           | <img src="./icons/tr.gif" />        |

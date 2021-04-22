@@ -30,7 +30,7 @@
 
 **:nut_and_bolt: CSE272 - [Design Patterns](./CSE272.md)**
 
-23种常见设计模式以及代码实现的示范。
+23种常见设计模式以及部分代码实现。
 
 **:1234: CSE274 - Data Structure and Algorithms**
 
