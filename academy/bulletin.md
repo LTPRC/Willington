@@ -60,15 +60,19 @@ JVM的定义、构造，垃圾回收原理，调优技能。
 
 非关系型数据库Redis的相关介绍。
 
-**:globe_with_meridians: SYS101 - Networks**
+**:globe_with_meridians: SYS151 - [Linux Commands](./sys151.md)**
+
+Linux常用命令相关资料。
+
+**:globe_with_meridians: SYS201 - Networks**
 
 HTTP, TCP/IP等多种协议的计算机网络知识。
 
-**:family: SYS201 - Distributed Systems**
+**:family: SYS301 - Distributed Systems**
 
 分布式系统的规范、原理等知识，以及一些常见分布式系统的示例。
 
-**:shower: SYS301 - Message Queue**
+**:shower: SYS321 - Message Queue**
 
 剖析消息队列/消息中间件的理论与原理。
 

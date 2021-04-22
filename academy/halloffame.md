@@ -10,6 +10,7 @@
 | --------- | ---------- | ---------------------------------- | ----------------------------------- |
 | alibaba   | 阿里巴巴   | 校招面试、社招面试、面经、技术方案 | <img src="./icons/alibaba.gif" />   |
 | amazon    | 亚马逊     | 校招面试、面经、技术方案           | <img src="./icons/amazon.gif" />    |
+| apple     | 苹果       | 社招面试                           | <img src="./icons/apple.gif" />     |
 | baidu     | 百度       | 校招面试、社招面试、面经、技术方案 | <img src="./icons/baidu.gif" />     |
 | bbbbzxlb  | 袁广鑫     | 面经                               | <img src="./icons/bbbbzxlb.gif" />  |
 | bittiger  | 太阁       | 课程                               | <img src="./icons/bittiger.gif" />  |
@@ -23,6 +24,8 @@
 | jd        | 京东       | 校招面试、面经                     | <img src="./icons/jd.gif" />        |
 | kaikeba   | 开课吧     | 课程                               | <img src="./icons/kaikeba.gif" />   |
 | kingdee   | 金蝶       | 面经                               | <img src="./icons/kingdee.gif" />   |
+| kujiale   | 酷家乐     | 面经                               | <img src="./icons/kujiale.gif" />   |
+| linkedin  | 领英       | 校招面试                           | <img src="./icons/linkedin.gif" />  |
 | luban     | 鲁班学院   | 课程                               | <img src="./icons/luban.gif" />     |
 | mashibing | 马士兵教育 | 课程                               | <img src="./icons/mashibing.gif" /> |
 | meituan   | 美团       | 校招面试、面经、技术方案           | <img src="./icons/meituan.gif" />   |
