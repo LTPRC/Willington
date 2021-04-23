@@ -11,6 +11,7 @@
 | alibaba   | 阿里巴巴   | 校招面试、社招面试、面经、技术方案 | <img src="./icons/alibaba.gif" />   |
 | amazon    | 亚马逊     | 校招面试、面经、技术方案           | <img src="./icons/amazon.gif" />    |
 | apple     | 苹果       | 社招面试                           | <img src="./icons/apple.gif" />     |
+| ausa      | 奥萨医药   | 面经                               | <img src="./icons/ausa.gif" />      |
 | baidu     | 百度       | 校招面试、社招面试、面经、技术方案 | <img src="./icons/baidu.gif" />     |
 | bbbbzxlb  | 袁广鑫     | 面经                               | <img src="./icons/bbbbzxlb.gif" />  |
 | bittiger  | 太阁       | 课程                               | <img src="./icons/bittiger.gif" />  |
@@ -21,6 +22,7 @@
 | google    | 谷歌       | 校招面试、社招面试、面经           | <img src="./icons/google.gif" />    |
 | gupao     | 咕泡学院   | 课程                               | <img src="./icons/gupao.gif" />     |
 | huawei    | 华为       | 社招面试、面经                     | <img src="./icons/huawei.gif" />    |
+| iqiyi     | 爱奇艺     | 面经                               | <img src="./icons/iqiyi.gif" />     |
 | jd        | 京东       | 校招面试、面经                     | <img src="./icons/jd.gif" />        |
 | kaikeba   | 开课吧     | 课程                               | <img src="./icons/kaikeba.gif" />   |
 | kingdee   | 金蝶       | 面经                               | <img src="./icons/kingdee.gif" />   |
@@ -38,6 +40,7 @@
 | sohu      | 搜狐       | 校招面试                           | <img src="./icons/sohu.gif" />      |
 | tencent   | 腾讯       | 面经、技术方案                     | <img src="./icons/tencent.gif" />   |
 | tr        | 汤森路透   | 校招面试                           | <img src="./icons/tr.gif" />        |
+| tuling    | 图灵学院   | 课程                               | <img src="./icons/tuling.gif" />    |
 | xiaohui   | 程序员小灰 | 技术方案                           | <img src="./icons/xiaohui.gif" />   |
 |           |            |                                    |                                     |
 
