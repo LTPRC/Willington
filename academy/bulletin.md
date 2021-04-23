@@ -12,7 +12,7 @@
 
 主要讲述如何准备面试、如何预判技术面试和HR面试的常见难题并迎刃而解的相关技巧。
 
-**:rocket: SDE121 - [Introduction of Agile](./SDE101.md)**
+**:rocket: SDE121 - [Introduction of Agile](./SDE121.md)**
 
 敏捷开发相关知识的概述。
 
