@@ -56,11 +56,11 @@ JVM的定义、构造，垃圾回收原理，调优技能。
 
 关系型数据库、SQL编程、MySQL存储引擎、索引、事务、并发、调优的相关资料。
 
-**:memo: DBA201 - Redis**
+**:memo: DBA201 - [Redis](./DBA201.md)**
 
 非关系型数据库Redis的相关介绍。
 
-**:globe_with_meridians: SYS151 - [Linux Commands](./sys151.md)**
+**:penguin: SYS151 - [Linux Commands](./SYS151.md)**
 
 Linux常用命令相关资料。
 
@@ -76,7 +76,7 @@ HTTP, TCP/IP等多种协议的计算机网络知识。
 
 剖析消息队列/消息中间件的理论与原理。
 
-**:atm: SYS401 - Fin-tech**
+**:atm: SYS401 - [Financial Technology](./SYS401.md)**
 
 介绍不同场景下的金融科技系统。
 
