@@ -44,7 +44,7 @@ JVM的定义、构造，垃圾回收原理，调优技能。
 
 操作系统和JVM的多线程并发编程知识。
 
-**:floppy_disk: CSE351 - Java IO**
+**:floppy_disk: CSE351 - [Java I/O](./CSE351.md)**
 
 操作系统和JVM的IO编程知识。
 
