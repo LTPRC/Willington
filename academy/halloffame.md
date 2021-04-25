@@ -22,6 +22,7 @@
 | google           | 谷歌          | 校招面试、社招面试、面经           | <img src="./icons/google.gif" />           |
 | gupao            | 咕泡学院      | 课程                               | <img src="./icons/gupao.gif" />            |
 | hollischuang     | Hollis        | 技术方案                           | <img src="./icons/hollischuang.gif" />     |
+| how2j            | HOW2J         | 课程                               | <img src="./icons/how2j.gif" />            |
 | huawei           | 华为          | 社招面试、面经                     | <img src="./icons/huawei.gif" />           |
 | iqiyi            | 爱奇艺        | 面经                               | <img src="./icons/iqiyi.gif" />            |
 | javamanongzhijia | Java码农之家  | 技术方案                           | <img src="./icons/javamanongzhijia.gif" /> |
@@ -36,6 +37,7 @@
 | meituan          | 美团          | 校招面试、面经、技术方案           | <img src="./icons/meituan.gif" />          |
 | mi               | 小米          | 校招面试、面经                     | <img src="./icons/mi.gif" />               |
 | microsoft        | 微软          | 社招面试、面经                     | <img src="./icons/microsoft.gif" />        |
+| miisi            | 迈思          | 面经                               | <img src="./icons/miisi.gif" />            |
 | netease          | 网易          | 校招面试、面经                     | <img src="./icons/netease.gif" />          |
 | paypal           | PayPal        | 社招面试、面经                     | <img src="./icons/paypal.gif" />           |
 | pingan           | 平安银行      | 面经                               | <img src="./icons/pingan.gif" />           |
@@ -43,6 +45,7 @@
 | runoob           | 菜鸟教程      | 技术方案                           | <img src="./icons/runoob.gif" />           |
 | sf               | 顺丰          | 面经                               | <img src="./icons/sf.gif" />               |
 | sohu             | 搜狐          | 校招面试                           | <img src="./icons/sohu.gif" />             |
+| stonefu          | StoneFu       | 技术方案                           | <img src="./icons/stonefu.gif" />          |
 | tencent          | 腾讯          | 面经、技术方案                     | <img src="./icons/tencent.gif" />          |
 | tr               | 汤森路透      | 校招面试                           | <img src="./icons/tr.gif" />               |
 | tuling           | 图灵学院      | 课程                               | <img src="./icons/tuling.gif" />           |
