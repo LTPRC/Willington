@@ -32,7 +32,7 @@
 
 23种常见设计模式以及部分代码实现。
 
-**:1234: CSE274 - Data Structure and Algorithms**
+**:1234: CSE274 - [Data Structure and Algorithms](./CSE274.md)**
 
 目前的想法是以数据结构和算法的概念知识为主，基于Java的算法题题解为辅。
 
