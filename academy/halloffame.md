@@ -24,6 +24,7 @@
 | hollischuang     | Hollis        | 技术方案                           | <img src="./icons/hollischuang.gif" />     |
 | how2j            | HOW2J         | 课程                               | <img src="./icons/how2j.gif" />            |
 | huawei           | 华为          | 社招面试、面经                     | <img src="./icons/huawei.gif" />           |
+| hulu             | Hulu          | 面经                               | <img src="./icons/hulu.gif" />             |
 | iqiyi            | 爱奇艺        | 面经                               | <img src="./icons/iqiyi.gif" />            |
 | javamanongzhijia | Java码农之家  | 技术方案                           | <img src="./icons/javamanongzhijia.gif" /> |
 | jd               | 京东          | 校招面试、面经                     | <img src="./icons/jd.gif" />               |
