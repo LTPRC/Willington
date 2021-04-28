@@ -23,6 +23,7 @@
 | gupao            | 咕泡学院      | 课程                               | <img src="./icons/gupao.gif" />            |
 | hollischuang     | Hollis        | 技术方案                           | <img src="./icons/hollischuang.gif" />     |
 | how2j            | HOW2J         | 课程                               | <img src="./icons/how2j.gif" />            |
+| hropt            | 网优雇佣军    | 技术方案                           | <img src="./icons/hropt.gif" />            |
 | huawei           | 华为          | 社招面试、面经                     | <img src="./icons/huawei.gif" />           |
 | hulu             | Hulu          | 面经                               | <img src="./icons/hulu.gif" />             |
 | iqiyi            | 爱奇艺        | 面经                               | <img src="./icons/iqiyi.gif" />            |
@@ -45,6 +46,7 @@
 | qinlin           | 亲邻科技      | 面经                               | <img src="./icons/qinlin.gif" />           |
 | runoob           | 菜鸟教程      | 技术方案                           | <img src="./icons/runoob.gif" />           |
 | sf               | 顺丰          | 面经                               | <img src="./icons/sf.gif" />               |
+| snailclimb       | Guide哥       | 技术方案                           | <img src="./icons/snailclimb.gif" />       |
 | sohu             | 搜狐          | 校招面试                           | <img src="./icons/sohu.gif" />             |
 | stonefu          | StoneFu       | 技术方案                           | <img src="./icons/stonefu.gif" />          |
 | tencent          | 腾讯          | 面经、技术方案                     | <img src="./icons/tencent.gif" />          |

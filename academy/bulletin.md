@@ -72,10 +72,6 @@ HTTP, TCP/IP等多种协议的计算机网络知识。
 
 分布式系统的规范、原理等知识，以及一些常见分布式系统的示例。
 
-**:shower: SYS321 - Message Queue**
-
-剖析消息队列/消息中间件的理论与原理。
-
 **:atm: SYS401 - [Financial Technology](./SYS401.md)**
 
 介绍不同场景下的金融科技系统。
