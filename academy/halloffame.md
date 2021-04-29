@@ -16,6 +16,7 @@
 | bbbbzxlb         | 袁广鑫        | 面经                               | <img src="./icons/bbbbzxlb.gif" />         |
 | bittiger         | 太阁          | 课程                               | <img src="./icons/bittiger.gif" />         |
 | bytedance        | 字节跳动      | 校招面试、社招面试、面经、技术方案 | <img src="./icons/bytedance.gif" />        |
+| chengyuqiang     | 程裕强        | 技术方案                           | <img src="./icons/chengyuqiang.gif" />     |
 | citic            | 中信银行      | 社招面试、面经、技术方案           | <img src="./icons/citic.gif" />            |
 | didi             | 滴滴          | 社招面试、面经                     | <img src="./icons/didi.gif" />             |
 | ericsson         | 爱立信        | 校招面试                           | <img src="./icons/ericsson.gif" />         |
