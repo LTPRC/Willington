@@ -24,6 +24,7 @@
 | ericsson         | 爱立信        | 校招面试                           | <img src="./icons/ericsson.gif" />         |
 | google           | 谷歌          | 校招面试、社招面试、面经           | <img src="./icons/google.gif" />           |
 | gupao            | 咕泡学院      | 课程                               | <img src="./icons/gupao.gif" />            |
+| hdjsjx           | 后端技术精选  | 技术方案                           | <img src="./icons/hdjsjx.gif" />           |
 | hollischuang     | Hollis        | 技术方案                           | <img src="./icons/hollischuang.gif" />     |
 | how2j            | HOW2J         | 课程                               | <img src="./icons/how2j.gif" />            |
 | hropt            | 网优雇佣军    | 技术方案                           | <img src="./icons/hropt.gif" />            |
@@ -35,6 +36,7 @@
 | kaikeba          | 开课吧        | 课程                               | <img src="./icons/kaikeba.gif" />          |
 | kingdee          | 金蝶          | 面经                               | <img src="./icons/kingdee.gif" />          |
 | kujiale          | 酷家乐        | 面经                               | <img src="./icons/kujiale.gif" />          |
+| lagou            | 拉勾          | 课程                               | <img src="./icons/lagou.gif" />            |
 | linkedin         | 领英          | 校招面试                           | <img src="./icons/linkedin.gif" />         |
 | linuxlearning365 | Linux知识积累 | 技术方案                           | <img src="./icons/linuxlearning365.gif" /> |
 | luban            | 鲁班学院      | 课程                               | <img src="./icons/luban.gif" />            |
