@@ -68,7 +68,7 @@ Linux常用命令相关资料。
 
 HTTP, TCP/IP等多种协议的计算机网络知识。
 
-**:family: SYS301 - Distributed Systems**
+**:family: SYS301 - [Distributed Systems](./SYS301.md)**
 
 分布式系统的规范、原理等知识，以及一些常见分布式系统的示例。
 
