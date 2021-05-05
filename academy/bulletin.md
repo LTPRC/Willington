@@ -2,11 +2,9 @@
 
 ## Hall of Fame
 
-[点击前往Hall of Fame / Click for Hall of Fame](./halloffame.md)
+点击前往 / Click for [Hall of Fame](./halloffame.md)
 
 ## Syllabus
-
-课程大纲 如下所示：
 
 :mortar_board: SDE101 - [Orientation of SDE](./SDE101.md)
 
@@ -16,7 +14,7 @@
 
 敏捷开发相关知识的概述。
 
-:art:CSE121 - [Introduction of Front-end Development](./CSE121.md)
+:art: CSE121 - [Introduction of Front-end Development](./CSE121.md)
 
 前端技术的极缩略简述。
 
@@ -75,3 +73,4 @@ HTTP, TCP/IP等多种协议的计算机网络知识。
 :atm: SYS401 - [Financial Technology](./SYS401.md)
 
 介绍不同场景下的金融科技系统。
+
