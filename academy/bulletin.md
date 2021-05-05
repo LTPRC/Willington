@@ -18,7 +18,7 @@
 
 **:art:CSE121 - [Introduction of Front-end Development](./CSE121.md)**
 
-前端技术的发展。
+前端技术的极缩略简述。
 
 **:computer: CSE174 - Introduction of Programming**
 
@@ -48,7 +48,7 @@ JVM的定义、构造，垃圾回收原理，调优技能。
 
 操作系统和JVM的IO编程知识。
 
-**:package: CSE401 - Spring Framework**
+**:package: CSE401 - [Spring](./CSE401.md)**
 
 从两眼一抹黑到由浅到深逐步理解的Spring框架知识强化。
 
@@ -75,7 +75,3 @@ HTTP, TCP/IP等多种协议的计算机网络知识。
 **:atm: SYS401 - [Financial Technology](./SYS401.md)**
 
 介绍不同场景下的金融科技系统。
-
-**:alien: Others**
-
-待归类。
