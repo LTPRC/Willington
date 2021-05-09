@@ -31,6 +31,7 @@
 | huawei           | 华为          | 社招面试、面经                     | <img src="./icons/huawei.gif" />           |
 | hulu             | Hulu          | 面经                               | <img src="./icons/hulu.gif" />             |
 | iqiyi            | 爱奇艺        | 面经                               | <img src="./icons/iqiyi.gif" />            |
+| javaaudition     | 三太子敖丙    | 技术方案                           | <img src="./icons/javaaudition.gif" />     |
 | javamanongzhijia | Java码农之家  | 技术方案                           | <img src="./icons/javamanongzhijia.gif" /> |
 | jd               | 京东          | 校招面试、面经                     | <img src="./icons/jd.gif" />               |
 | kaikeba          | 开课吧        | 课程                               | <img src="./icons/kaikeba.gif" />          |
@@ -54,6 +55,7 @@
 | snailclimb       | Guide哥       | 技术方案                           | <img src="./icons/snailclimb.gif" />       |
 | sohu             | 搜狐          | 校招面试                           | <img src="./icons/sohu.gif" />             |
 | stonefu          | StoneFu       | 技术方案                           | <img src="./icons/stonefu.gif" />          |
+| summerday152     | 天乔巴夏丶    | 技术方案                           | <img src="./icons/summerday152.gif" />     |
 | tencent          | 腾讯          | 面经、技术方案                     | <img src="./icons/tencent.gif" />          |
 | tr               | 汤森路透      | 校招面试                           | <img src="./icons/tr.gif" />               |
 | tuling           | 图灵学院      | 课程                               | <img src="./icons/tuling.gif" />           |
