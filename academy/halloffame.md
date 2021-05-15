@@ -36,6 +36,7 @@
 | jd               | 京东          | √        |          | √        |          |          |          | <img src="./icons/jd.gif" />               |
 | kaikeba          | 开课吧        |          |          |          | √        |          |          | <img src="./icons/kaikeba.gif" />          |
 | kingdee          | 金蝶          |          |          | √        |          |          |          | <img src="./icons/kingdee.gif" />          |
+| kuaixuejava      | 快学Java      |          |          |          |          |          | √        | <img src="./icons/kuaixuejava.gif" />      |
 | kujiale          | 酷家乐        |          |          | √        |          |          |          | <img src="./icons/kujiale.gif" />          |
 | lagou            | 拉勾          |          |          |          | √        |          |          | <img src="./icons/lagou.gif" />            |
 | lijiang          | 李疆          |          |          |          |          |          | √        | <img src="./icons/lijiang.gif" />          |
