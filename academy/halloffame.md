@@ -31,6 +31,7 @@
 | huawei           | 华为          |          | √        | √        |          |          |          | <img src="./icons/huawei.gif" />           |
 | hulu             | Hulu          |          | √        | √        |          |          |          | <img src="./icons/hulu.gif" />             |
 | iqiyi            | 爱奇艺        |          |          | √        |          |          |          | <img src="./icons/iqiyi.gif" />            |
+| itcast           | 传智播客      |          |          |          | √        |          |          | <img src="./icons/itcast.gif" />           |
 | javaaudition     | 三太子敖丙    |          |          |          |          |          | √        | <img src="./icons/javaaudition.gif" />     |
 | javamanongzhijia | Java码农之家  |          |          |          |          |          | √        | <img src="./icons/javamanongzhijia.gif" /> |
 | jd               | 京东          | √        |          | √        |          |          |          | <img src="./icons/jd.gif" />               |
