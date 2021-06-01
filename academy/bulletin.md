@@ -14,10 +14,6 @@
 
 敏捷开发相关知识的概述。
 
-:art: CSE121 - [Introduction of Front-end Development](./CSE121.md)
-
-前端技术的极缩略简述。
-
 :computer: CSE174 - Introduction of Programming
 
 最最基础的入门级Java编程知识，适合编程零基础的同学参考。
