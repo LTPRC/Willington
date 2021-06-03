@@ -14,10 +14,6 @@
 
 敏捷开发相关知识的概述。
 
-:computer: CSE174 - Introduction of Programming
-
-最最基础的入门级Java编程知识，适合编程零基础的同学参考。
-
 :coffee: CSE271 - [Object-Oriented Programming](./CSE271.md)
 
 关于Java面向对象编程的相关信息，一起玩转JDK的一个个细节。
@@ -46,7 +42,7 @@ JVM的定义、构造，垃圾回收原理，调优技能。
 
 从两眼一抹黑到由浅到深逐步理解的Spring框架知识强化。
 
-:books: DBA101 - MySQL
+:books: DBA101 - [MySQL](./DBA101.md)
 
 关系型数据库、SQL编程、MySQL存储引擎、索引、事务、并发、调优的相关资料。
 
