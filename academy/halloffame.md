@@ -58,7 +58,9 @@
 | netease          | 网易             | √        |          | √        |          |          |          | <img src="./icons/netease.gif" />          |
 | paypal           | PayPal           |          | √        | √        |          |          |          | <img src="./icons/paypal.gif" />           |
 | pingan           | 平安银行         |          |          | √        |          |          |          | <img src="./icons/pingan.gif" />           |
+| qq_25940921      | 金发只是水一下   |          |          |          |          |          | √        | <img src="./icons/qq_25940921.gif" />      |
 | qinlin           | 亲邻科技         |          |          | √        |          |          |          | <img src="./icons/qinlin.gif" />           |
+| road5858         | 架构师之路       |          |          |          |          |          | √        | <img src="./icons/road5858.gif" />         |
 | runoob           | 菜鸟教程         |          |          |          |          | √        |          | <img src="./icons/runoob.gif" />           |
 | sf               | 顺丰             |          |          | √        |          |          |          | <img src="./icons/sf.gif" />               |
 | snailclimb       | Guide哥          |          |          |          |          |          | √        | <img src="./icons/snailclimb.gif" />       |
