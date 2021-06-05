@@ -26,11 +26,11 @@
 
 目前的想法是以数据结构和算法的概念知识为主，基于Java的算法题题解为辅。
 
-:vertical_traffic_light: CSE301 - Java Virtual Machine
+:vertical_traffic_light: CSE301 - [Java Virtual Machine](./CSE301.md)
 
 JVM的定义、构造，垃圾回收原理，调优技能。
 
-:closed_lock_with_key: CSE311 - Multi-thread Programming
+:closed_lock_with_key: CSE311 - [Multi-thread Programming](./CSE311.md)
 
 操作系统和JVM的多线程并发编程知识。
 
