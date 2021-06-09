@@ -64,6 +64,7 @@
 | road5858         | 架构师之路       |          |          |          |          |          | √        | <img src="./icons/road5858.gif" />         |
 | runoob           | 菜鸟教程         |          |          |          |          | √        |          | <img src="./icons/runoob.gif" />           |
 | sf               | 顺丰             |          |          | √        |          |          |          | <img src="./icons/sf.gif" />               |
+| shixinzhang      | 拭心             |          |          |          |          |          | √        | <img src="./icons/shixinzhang.gif" />      |
 | snailclimb       | Guide哥          |          |          |          |          |          | √        | <img src="./icons/snailclimb.gif" />       |
 | sohu             | 搜狐             | √        |          |          |          |          |          | <img src="./icons/sohu.gif" />             |
 | stonefu          | StoneFu          |          |          |          |          |          | √        | <img src="./icons/stonefu.gif" />          |
