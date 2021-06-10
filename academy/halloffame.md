@@ -22,9 +22,10 @@
 | cai_ing          | cai_ing          |          |          |          |          |          | √        | <img src="./icons/cai_ing.gif" />          |
 | chengyuqiang     | 程裕强           |          |          |          |          |          | √        | <img src="./icons/chengyuqiang.gif" />     |
 | citic            | 中信银行         |          | √        | √        | √        | √        |          | <img src="./icons/citic.gif" />            |
+| cloverlove       | Cloverlove       |          |          |          |          |          | √        | <img src="./icons/cloverlove.gif" />       |
 | codingnaga       | Coding-Naga      |          |          |          |          |          | √        | <img src="./icons/codingnaga.gif" />       |
 | cxuan            | 程序员cxuan      |          |          |          |          |          | √        | <img src="./icons/cxuan.gif" />            |
-| cyc2008          | CyC2018          |          |          |          |          |          | √        | <img src="./icons/cyc2008.gif" />          |
+| cyc2018          | CyC2018          |          |          |          |          |          | √        | <img src="./icons/cyc2018.gif" />          |
 | didi             | 滴滴             |          | √        | √        |          |          |          | <img src="./icons/didi.gif" />             |
 | ericsson         | 爱立信           | √        |          |          |          |          |          | <img src="./icons/ericsson.gif" />         |
 | feichenwangyalin | 爱拼才会赢1991   |          |          |          |          |          | √        | <img src="./icons/feichenwangyalin.gif" /> |
