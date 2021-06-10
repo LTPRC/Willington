@@ -24,6 +24,7 @@
 | citic            | 中信银行         |          | √        | √        | √        | √        |          | <img src="./icons/citic.gif" />            |
 | codingnaga       | Coding-Naga      |          |          |          |          |          | √        | <img src="./icons/codingnaga.gif" />       |
 | cxuan            | 程序员cxuan      |          |          |          |          |          | √        | <img src="./icons/cxuan.gif" />            |
+| cyc2008          | CyC2018          |          |          |          |          |          | √        | <img src="./icons/cyc2008.gif" />          |
 | didi             | 滴滴             |          | √        | √        |          |          |          | <img src="./icons/didi.gif" />             |
 | ericsson         | 爱立信           | √        |          |          |          |          |          | <img src="./icons/ericsson.gif" />         |
 | feichenwangyalin | 爱拼才会赢1991   |          |          |          |          |          | √        | <img src="./icons/feichenwangyalin.gif" /> |
@@ -38,6 +39,7 @@
 | hulu             | Hulu             |          | √        | √        |          |          |          | <img src="./icons/hulu.gif" />             |
 | iqiyi            | 爱奇艺           |          |          | √        |          |          |          | <img src="./icons/iqiyi.gif" />            |
 | itcast           | 传智播客         |          |          |          | √        |          |          | <img src="./icons/itcast.gif" />           |
+| ithk01           | IT技术精选文摘   |          |          |          |          |          | √        | <img src="./icons/ithk01.gif" />           |
 | javaaudition     | 三太子敖丙       |          |          |          |          |          | √        | <img src="./icons/javaaudition.gif" />     |
 | javamanongzhijia | Java码农之家     |          |          |          |          |          | √        | <img src="./icons/javamanongzhijia.gif" /> |
 | jd               | 京东             | √        |          | √        |          |          |          | <img src="./icons/jd.gif" />               |
