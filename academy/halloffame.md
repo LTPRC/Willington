@@ -77,6 +77,7 @@
 | tr               | 汤森路透         | √        |          |          |          |          |          | <img src="./icons/tr.gif" />               |
 | tuling           | 图灵学院         |          |          |          | √        |          |          | <img src="./icons/tuling.gif" />           |
 | xiaohui          | 程序员小灰       |          |          |          |          |          | √        | <img src="./icons/xiaohui.gif" />          |
+| xiaoshuiniu      | 小水牛           |          |          |          |          |          | √        | <img src="./icons/xiaoshuiniu.gif" />      |
 | yyucao           | 业余草           |          |          |          |          |          | √        | <img src="./icons/yyucao.gif" />           |
 |                  |                  |          |          |          |          |          |          |                                            |
 
