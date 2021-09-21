@@ -60,7 +60,7 @@
 | microsoft        | 微软             |          | √        | √        |          |          |          | <img src="./icons/microsoft.gif" />        |
 | miisi            | 迈思             |          |          | √        |          |          |          | <img src="./icons/miisi.gif" />            |
 | netease          | 网易             | √        |          | √        |          |          |          | <img src="./icons/netease.gif" />          |
-| paypal           | PayPal           |          | √        | √        |          |          |          | <img src="./icons/paypal.gif" />           |
+| paypal           | PayPal           |          | √        | √        |          |          | √        | <img src="./icons/paypal.gif" />           |
 | pingan           | 平安银行         |          |          | √        |          |          |          | <img src="./icons/pingan.gif" />           |
 | qq_25940921      | 金发只是水一下   |          |          |          |          |          | √        | <img src="./icons/qq_25940921.gif" />      |
 | qq_38294614      | 坐看云淡风轻     |          |          |          |          |          | √        | <img src="./icons/qq_38294614.gif" />      |
