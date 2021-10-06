@@ -62,6 +62,10 @@ HTTP, TCP/IP等多种协议的计算机网络知识。
 
 分布式系统的规范、原理等知识，以及一些常见分布式系统的示例。
 
+:incoming_envelope: SYS311 - [Message Queue](./SYS311.md)
+
+探究消息队列的基本原理，分析几种经典消息队列系统。
+
 :atm: SYS401 - [Financial Technology](./SYS401.md)
 
 介绍不同场景下的金融科技系统。
