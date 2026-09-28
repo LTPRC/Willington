@@ -14,7 +14,7 @@
 
 敏捷开发相关知识的概述。
 
-:coffee: CSE271 - [Object-Oriented Programming](./CSE271.md)
+:coffee: CSE271 - [Java Core](./CSE271.md)
 
 关于Java面向对象编程的相关信息，一起玩转JDK的一个个细节。
 
