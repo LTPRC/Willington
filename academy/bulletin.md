@@ -28,7 +28,7 @@
 
 :vertical_traffic_light: CSE301 - [Java Virtual Machine](./CSE301.md)
 
-JVM的定义、构造，垃圾回收原理，调优技能。
+JVM的定义、构造，垃圾回收原理。
 
 :closed_lock_with_key: CSE311 - [Multi-thread Programming](./CSE311.md)
 
@@ -37,6 +37,10 @@ JVM的定义、构造，垃圾回收原理，调优技能。
 :floppy_disk: CSE351 - [Java I/O](./CSE351.md)
 
 操作系统和JVM的IO编程知识。
+
+:ambulance: CSE381 - [Java Production Troubleshooting & Performance](./CSE381.md)
+
+线上Java服务的故障排查SOP、性能诊断与JVM调优主战手册。
 
 :package: CSE401 - [Spring](./CSE401.md)
 
