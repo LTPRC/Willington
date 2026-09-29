@@ -1,0 +1,3182 @@
+# Willington 知识结构树
+
+返回[Bulletin](./bulletin.md)
+
+> 生成日期：2026-09-29。覆盖 **19 门课程 / 135 个章节 / 2921 个知识点标题**，另有 23 个课程索引中已规划、尚未成文的条目（以 ※ 标注）。
+> 树由 bulletin.md 的课程顺序、各课程索引的章节链接、以及章节文件内 h2–h5 标题自动汇编而成；标题中的公司 GIF 来源标注保留在正文，树上从略。
+> 标记说明：【P0】【P1】【P2】= 章内优先级；【Appendix】= 历史知识存档；※ = 索引已规划、尚未成文。
+
+## :mortar_board: SDE101 - Orientation of SDE
+
+> 面试准备、技术面与 HR 面常见难题的预判与应对技巧。
+
+- **[面试前](./SDE101.md)**
+  - 去哪里查公司/岗位的面经和相关资料？
+- **[面试中](./SDE101.md)**
+  - 自我介绍
+    - 面对技术面试官
+    - 面对HR
+  - 离职原因
+    - 推荐
+    - 不推荐
+  - 项目介绍
+    - STAR法则（Situation Task Action Result）
+      - Situation
+      - Task
+      - Action
+      - Result
+    - 进阶问题
+  - 假如给你一个新产品，你将从哪些方面来保障它的质量？
+    - 代码开发
+    - 测试保障
+    - 线上质量
+  - 算法笔试
+    - 定义与命名
+    - 基本操作
+    - 边界处理和异常处理
+    - 循环
+    - 数组
+    - 集合
+    - 表
+    - 堆
+    - 字符串
+    - 成员
+    - 时间复杂度
+    - 业务规则
+  - 综合问题
+  - 你有什么想问我的？
+    - 面对技术面试官
+    - 面对经理
+    - 面对总监
+    - 面对HR
+
+## :rocket: SDE121 - Introduction of Agile
+
+> 敏捷开发相关知识概述。
+
+- **[什么是敏捷？](./SDE121.md)**
+- **[敏捷宣言](./SDE121.md)**
+- **[Scrum](./SDE121.md)**
+- **[Sprint](./SDE121.md)**
+- **[三个关键角色](./SDE121.md)**
+  - Product Owner (PO) 产品负责人
+  - Scrum Master (SM) 迭代负责人/敏捷教练
+  - Team 团队
+- **[三个关键产出](./SDE121.md)**
+  - Product Backlog (PB) 产品待办清单
+  - Sprint Backlog (SB) 迭代待办清单
+  - Increment 产品增量
+- **[五个关键活动](./SDE121.md)**
+  - Product Backlog Refinement PB梳理会议
+  - Sprint Planning Meeting 迭代计划会议
+  - Daily Scrum 每日站会
+  - Sprint Review 迭代评审会议
+  - Sprint Retrospective 迭代回顾会议
+- **[五个核心价值](./SDE121.md)**
+- **[传统瀑布模式 VS 敏捷模式](./SDE121.md)**
+- **[敏捷的价值](./SDE121.md)**
+- **[燃尽图](./SDE121.md)**
+
+## :coffee: CSE271 - Java Core
+
+> Java 面向对象编程，玩转 JDK 的一个个细节。
+
+- **[Java Language Fundamentals](./CSE2711.md)**
+  - 1. Java Execution Model
+    - Source Code → Bytecode → JVM
+    - Platform Independence
+    - JDK / JRE / JVM 基本关系
+  - 2. Java Type System
+    - Primitive Types
+    - Reference Types
+    - Primitive vs Reference
+  - 3. Numeric Semantics
+    - Integer Representation
+    - Floating Point
+    - BigDecimal
+  - 4. Wrapper Types
+    - Integer Cache
+    - == vs equals
+    - Null Unboxing
+    - Primitive vs Wrapper
+  - 5. equals / hashCode Contract
+    - Object 默认实现
+    - 契约内容
+    - 为什么重写 equals 必须重写 hashCode
+    - 哈希碰撞是正常现象："Aa" 与 "BB"
+    - 工程实践
+  - 6. Operators & Expressions
+    - Arithmetic
+    - Compound Assignment
+    - Logical
+    - Bitwise & Shift
+  - 7. Java Parameter Passing
+    - Primitive Value
+    - Reference Value
+  - 8. Access Control
+  - 9. Core Modifiers
+    - static
+    - final
+      - final variable
+      - final reference
+      - final method
+      - final class
+  - 10. Immutability
+    - Immutable Object
+    - final Reference vs Immutable Object
+    - How to Design an Immutable Class
+    - Defensive Copy
+    - Why Immutability Helps Concurrency
+  - 11. Enum
+    - enum VS Enum
+    - 为什么用 enum 而不是 int/String 常量
+  - 12. Character & Encoding
+    - Unicode
+    - Code Point
+    - UTF-8
+    - UTF-16
+    - Java char
+    - String
+  - 13. Language Basics Reference
+    - instanceof
+    - Basic switch
+  - A. Java Historical Background
+  - B. Legacy Java Terminology
+  - C. Basic Syntax Reference
+    - 注释
+    - 标识符
+    - 关键字/保留字
+    - static import
+  - D. Operator Reference
+  - E. Character Encoding Reference
+  - F. Low-Priority Fundamentals
+    - Java 相对 C++ 的取舍
+    - 安全机制
+    - 健壮性
+    - 原码、反码、补码
+    - boolean 的 JVM 表示
+- **[Object-Oriented Programming](./CSE2712.md)**
+  - 1. 面向对象核心思想
+    - Abstraction
+    - Encapsulation
+    - Inheritance
+    - Polymorphism
+  - 2. Inheritance
+    - extends 与继承语义
+      - 父类
+      - 子类
+      - this关键字
+      - super关键字
+      - 为什么说继承破坏了封装
+      - 为什么 JAVA 只允许单继承
+    - Initialization Order
+    - Composition over Inheritance
+  - 3. Polymorphism
+    - Override
+    - Overload
+    - Override vs Overload
+    - Dynamic Binding
+    - Static Method Hiding
+  - 4. Abstract Class vs Interface
+    - Interface Method
+    - Interface Field
+    - extends / implements
+    - Abstract Class vs Interface
+    - How to Choose
+  - A. Programming Language Fundamentals
+    - 机器语言
+    - 汇编语言
+    - 高级语言
+      - 编译型 VS 解释型
+        - 编译型
+        - 解释型
+      - 面向过程 VS 面向对象
+        - 面向过程
+        - 面向对象
+  - B. Inner Class
+  - C. Annotation
+  - D. UML Class Relationships
+    - 泛化关系 Generalization
+    - 实现关系 Realization
+    - 聚合关系 Aggregation
+    - 组合关系 Composition
+    - 关联关系 Association
+    - 依赖关系 Dependency
+- **[Exception Handling](./CSE2713.md)**
+  - 1. Exception Hierarchy
+    - Throwable
+    - Error
+    - Exception
+    - Checked Exception
+    - Unchecked Exception
+  - 2. Exception Handling
+    - throw vs throws
+    - try / catch / finally
+    - try-with-resources
+    - AutoCloseable
+  - 3. Exception Design & Best Practices
+    - Use Exceptions Only for Exceptional Conditions
+    - Checked vs Unchecked
+    - Prefer Standard Exceptions
+    - Exception Translation
+    - Exception Chaining
+    - Document Exceptions
+    - Preserve Failure Information
+    - Failure Atomicity
+    - Do Not Ignore Exceptions
+  - 4. Common Exception Anti-Patterns
+    - Swallow Exception
+    - Catch Too Broadly
+    - printStackTrace()
+    - Lose the Cause
+    - Log and Throw
+    - Exception as Control Flow
+  - 5. Custom Exception
+  - A. Common Exception Reference
+    - Error（低频补充类型）
+    - Checked Exception（低频补充类型）
+    - Unchecked Exception（低频补充类型）
+  - B. finally Edge Cases
+- **[Reflection](./CSE2714.md)**
+  - 什么是反射机制？
+  - Java Reflection API
+    - 分类
+    - 使用步骤
+    - 用例：使用反射调用泛型的compareTo()方法
+  - 具体操作
+    - 获取类对象
+    - 获取类对象的修饰符（public, static等）
+    - 获取类对象使用的所有接口
+    - 获取类对象的父类
+    - 获取类对象的所有方法，以及这些方法的返回类型和参数类型
+    - 获取类对象的构造函数
+    - 创建类对象的实例
+    - 更改/获取类对象的私有成员
+    - 使用类对象的私有方法
+  - 性能问题
+    - 性能开销
+    - 性能优化
+- **[Logging](./CSE2715.md)**
+  - slf4j
+  - log4j
+  - logback
+- **[Modern Java](./CSE2716.md)**
+  - 1. Generics
+    - Why Generics（什么是泛型）
+    - Generic Class（泛型类）
+    - Generic Interface（泛型接口）
+    - Generic Method（泛型方法）
+    - Invariance（不变）
+    - Wildcards（通配符）
+      - ? extends T（协变）
+      - ? super T（逆变）
+      - PECS
+    - ? vs T
+    - Type Erasure（泛型在什么阶段生效？）
+  - 2. Lambda Expression
+    - 无参数、无返回值
+    - 无参数、有返回值
+    - 只有一个参数
+    - Lambda vs Anonymous Inner Class
+    - Effectively Final
+  - 3. Functional Interface
+    - Interface Evolution：default 与 static 方法（原"接口（优化）"）
+    - Function<T, R>
+      - primitive specialization
+      - UnaryOperator<T>
+    - Predicate<T>
+    - Consumer<T>
+      - BiConsumer<T, U>
+    - Supplier<T>
+    - BiFunction<T, U, R>
+      - BinaryOperator<T>
+  - 4. Method Reference
+    - 类::静态方法
+    - 对象::实例方法
+    - 类::实例方法
+    - 类::构造方法
+    - 数组[]::new
+  - 5. Stream API / Pipeline（原"管道"）
+    - Stream vs Collection
+    - Internal Iteration
+    - Pipeline（管道）
+    - Lazy Evaluation
+    - 管道源
+      - 管道源是集合（顺序流）
+      - 管道源是集合（并行流）
+      - 管道源是数组
+      - 管道源是值
+      - 管道源是函数
+    - Intermediate Operations（中间操作）
+      - filter
+      - map
+      - flatMap
+      - reduce
+      - collect
+      - distinct
+      - sorted
+      - sorted(Comparator<T>)
+      - limit
+      - skip
+    - Terminal Operations（结束操作）
+      - forEach()
+      - toArray()
+      - min(Comparator<T>)
+      - max(Comparator<T>)
+      - count()
+      - findFirst()
+      - anyMatch / allMatch / noneMatch
+    - Parallel Stream
+  - 6. Optional
+    - orElse vs orElseGet
+    - Optional Best Practices
+  - 7. Java Date/Time API
+    - Duration vs Period
+    - LocalDateTime vs ZonedDateTime vs Instant
+    - DateTimeFormatter
+  - A. Legacy Generic APIs
+  - B. Java 8 Historical Notes
+- **[Unit Testing](./CSE2717.md)**
+  - 定义
+  - 为什么要使用Mock进行单元测试？
+    - Mockito
+    - PowerMock
+  - 步骤
+    - Initialization
+      - 命名
+      - 引入依赖
+      - 定义对象
+    - Mocking
+      - 设置属性
+      - 设置触发条件 when()
+      - 设置触发条件 whenNew()
+      - 设置响应结果
+      - 模拟final方法
+      - 模拟private方法
+      - 模拟static方法
+    - Invoking
+    - Verification
+  - Code Coverage
+
+## :nut_and_bolt: CSE272 - Design Patterns
+
+> 23 种常见设计模式以及部分代码实现。
+
+- **[设计模式](./CSE2721.md)**
+  - 设计模式
+  - 指导思想
+    - 可维护性 Maintainability
+    - 可复用性 Reusability
+    - 可扩展性 Extensibility/Scalability
+    - 灵活性 Flexibility/Mobility/Adaptability
+  - 面向对象的“六原则一法则”
+    - S 单一职责原则（Single Responsibility Principle）
+    - O 开闭原则（Open-Close Principle）
+    - L 里氏替换原则（Liskov Substitution Principle）
+    - I 接口隔离原则（Interface Segregation Principle）
+    - D 依赖倒转原则（Dependence Inversion Principle）
+    - 合成/聚合复用原则（Composite/Aggregate Reuse Principle CARP）
+    - 迪米特法则/最少知识原则（Law Of Demeter）
+- **[创建型模式](./CSE2722.md)**
+  - 创建型模式
+  - 单例模式 Singleton
+    - 饿汉式
+    - 懒汉式
+    - 懒汉式 双重校验锁DCL
+    - 懒汉式 静态内部类
+    - 枚举
+    - 反序列化攻击单例
+  - 工厂系列模式 Factory
+  - 简单工厂模式 Simple Factory
+  - 工厂方法模式 Factory Method
+  - 抽象工厂模式 Abstract Factory
+  - 原型模式 Prototype
+    - 浅克隆/浅拷贝 – Cloneable接口
+    - 深克隆/深拷贝 – Cloneable接口
+    - String类型是否需要深克隆？
+  - 构建者/建造者模式 Builder
+- **[结构型模式](./CSE2723.md)**
+  - 结构型模式
+  - 代理模式 Proxy
+    - 静态代理
+    - 动态代理
+      - 基于JDK Proxy
+      - ASM类库
+      - 基于CGlib
+      - 基于Aspectj
+      - 基于Instrument
+  - 门面/外观模式 Facade
+  - 装饰器模式 Decorator
+  - 组合模式 Composite
+  - 享元模式 Flyweight
+  - 适配器/包装器/转换器模式 Adapter/Wrapper
+  - 桥接模式 Bridge
+  - MVC模式
+    - Model 模型
+    - View 视图
+    - Controller 控制器
+- **[行为型模式](./CSE2724.md)**
+  - 行为型模式
+  - 策略模式 Strategy
+  - 调停者/中介者模式 Mediator
+  - 责任链模式 Chain of Responsibility
+  - 观察者模式 Observer
+  - 迭代器模式 Iterator
+    - 迭代器支持fail-fast吗？
+    - for each
+    - 删除ArrayList元素
+  - 访问者模式 Visitor
+  - 命令/动作/事务模式 Command/Action/Transaction
+    - 实现多次undo
+    - 实现宏命令
+  - 备忘录模式 Memento
+  - 模板方法模式 Template Method
+  - 状态模式 State
+  - 解释器模式 Interpreter
+
+## :1234: CSE274 - Data Structure and Algorithms
+
+> 数据结构与算法的概念知识为主，基于 Java 的算法题题解为辅。
+
+- **[集合](./CSE2741.md)**
+  - 数组 ※
+  - 队列和栈 ※
+  - Collection
+    - List接口
+      - List集合的特有的方法
+      - ArrayList
+        - 插入海量数据的优化
+      - LinkedList
+      - ArrayList VS LinkedList
+        - 时间复杂度
+        - 应用
+      - Vector
+      - Stack
+        - Stack的Java实现方式
+      - 数组转换为List
+      - List转换为数组
+    - Set接口
+      - 求交集
+      - 求并集
+      - 求差集
+      - HashSet
+      - TreeSet
+      - LinkedHashSet
+    - Queue接口
+      - 添加一个元素
+      - 移除并返问队列头部的元素
+      - 查看一个元素
+      - Queue的Java实现方式
+  - Collections
+    - 集合排序
+    - 让一个集合不能被修改？
+- **[表](./CSE2744.md)**
+  - 基本概念
+    - 哈希冲突
+      - 再散列法/开放定址法
+      - 再哈希法
+      - 链表地址法
+      - 建立一个公共溢出区
+  - Map接口
+    - HashMap
+      - JDK8以前
+      - JDK8以后
+        - 为什么HashMap链表转红黑树的阈值是8？
+        - 为什么使用红黑树而不使用AVL树?
+      - 参数
+        - capacity
+        - loadFactor
+        - threshold
+      - 构造方法
+      - hash方法
+        - JDK8以前
+        - JDK8以后
+      - indexFor方法
+      - get等方法
+        - JDK8以前
+      - JDK8以后
+      - 遍历HashMap
+      - put方法
+        - JDK8以前
+        - JDK8以后
+      - resize方法
+        - JDK8以前
+        - JDK8以后
+      - transfer方法
+      - HashMap为什么线程不安全？
+        - 数据丢失问题
+        - 环形链表/死循环问题
+    - HashMap VS Hashtable
+    - TreeMap
+      - 底层实现
+      - null键
+    - LinkedHashMap
+    - WeakHashMap
+  - 算法
+    - 设计一个HashMap数据结构
+    - 一种消息接收并打印的结构设计
+      - 解法
+- 矩阵 ※
+- **[字符串](./CSE2746.md)**
+  - 字符串 - 校验 ※
+  - 字符串 - 对比 ※
+  - 字符串 - 统计 ※
+  - String
+    - 字符串常量池如何存数据？
+    - String为什么是final/不可变类？
+    - 是否可以继承String类？
+    - 为什么char[]比String更适合存储密码？
+    - String str = new String("abc");生成了几个对象？
+    - 字符串比较题
+    - Java中需要转义的字符
+    - indexOf(String match)
+    - 删除空格
+  - StringBuffer
+    - 什么时候StringBuffer比String操作慢？
+  - StringBuilder VS StringBuffer
+- 链表[A] ※
+- 排序 ※
+  - 堆/优先队列 ※
+- **[二叉树](./CSE274D.md)**
+  - 二叉树 - 深度优先遍历 ※
+  - 二叉树 - 广度优先遍历 ※
+  - 有序表 ※
+  - 二叉树
+    - 满二叉树
+      - 检验满二叉树
+    - 完全二叉树
+      - 检验完全二叉树
+      - 求完全二叉树节点的个数
+    - 平衡二叉树
+      - 检验平衡二叉树
+- 前缀树[H] ※
+- 图 ※
+- 动态规划 ※
+  - 动态规划 - 从左往右的尝试模型 ※
+  - 动态规划 - 范围尝试模型 ※
+  - 动态规划 - 一个作行一个作列的对应模型 ※
+  - 贪心算法 ※
+- 位运算[O] ※
+- 大数据/资源限制类 ※
+- 经典算法 ※
+- 面向对象设计 ※
+- **[数学题/智力题](./CSE274S.md)**
+  - 数字类
+    - 为什么两个大于5的相邻奇数质数的中间的值是6的倍数？
+    - 一个数组，每次任选两个元素减一，能否全部减到0
+    - 一根金条，可以借助工具，切两刀，用于分七天支付一个人工资。
+    - 一种粗细不均匀的绳子，烧光一根需要一小时，如何计算一小时零十五分？
+  - 应用类
+    - 翻硬币问题
+    - 四个人过桥
+    - 大家看不到自己是黑帽子还是白帽子，黑帽子至少有一顶，第三次大家猜出自己是什么帽子，问共有多少顶黑帽子和白帽子？
+    - 12个球一个天平，现知道只有一个和其它的重量不同，问怎样称才能用三次就找到那个球。
+    - 13个球一个天平，现知道只有一个和其它的重量不同，问怎样称才能用三次就找到那个球。
+    - 飞机加油问题
+    - 汽车持续加油问题
+    - 监狱放风开关灯问题
+    - 实现多人公平抢同一个红包
+  - 几何类
+    - 猫抓老鼠问题
+    - 给你一个单位圆，还有平面上的n个点，求这个圆最多能覆盖的点数
+    - 在9个点上画10条直线,要求每条直线上至少有三个点
+    - 怎么样种植4棵树木，使其中任意两棵树的距离相等？
+  - 脑筋急转弯类
+    - 请把一盒蛋糕切成8份，分给8个人，但蛋糕盒里还必须留有一份
+    - 胡搅蛮缠型题目
+    - 两颗6面色子，可以在它们各个面上刻上0-9任意一个数字，要求能够用它们拼出任意某一日的数值
+
+## :vertical_traffic_light: CSE301 - Java Virtual Machine
+
+> JVM 的定义、构造、垃圾回收原理；线上排查与调优见 CSE381。
+
+- **[1. JVM Architecture](./CSE301.md)**
+  - JDK
+  - JRE
+  - JVM
+  - HotSpot 与常见 JVM
+  - HotSpot 的整体构成
+  - Java Source → Bytecode → JVM
+  - JVM 生命周期
+- **[2. Class Loading](./CSE301.md)**
+  - 类加载机制
+    - 加载 Loading
+    - 连接 Linking
+      - 验证 Verification
+      - 准备 Preparation
+      - 解析 Resolution
+    - 隐式装载与显式装载
+  - 初始化时机与懒加载 Lazy-loading
+  - 类加载器与双亲委派模型
+    - 三层类加载器
+      - 启动类加载器（Bootstrap）
+      - 平台类加载器（Platform，JDK9 前为 Extension 扩展类加载器）
+      - 应用/系统类加载器（Application/System）
+      - 用户自定义类加载器
+    - 使用原因
+    - 返回类加载器
+    - Java 如何判定两个类相同？（Class Identity）
+    - JDK 9 模块化后的委派变化
+    - 违反双亲委派模型的情况
+      - Tomcat
+    - 相关错误和异常
+- **[3. Runtime Data Areas](./CSE301.md)**
+  - 总览：不同版本对比
+    - Hotspot JDK 1.6
+    - Hotspot JDK 1.7
+    - Hotspot JDK 1.8
+  - 程序计数器 / PC 寄存器
+  - Java 虚拟机栈
+    - 栈帧
+      - 执行过程
+      - 存储信息
+  - 本地方法栈
+  - 堆
+  - 方法区
+  - 直接内存
+  - 堆 VS 栈
+  - 不同区域的引用关系
+    - 栈指向堆
+    - 方法区指向堆
+    - 堆指向方法区
+- **[4. Object & Memory](./CSE301.md)**
+  - 对象创建过程
+    - invoke 方法调用指令
+  - 对象生命周期与内存分配
+    - 栈与逃逸分析
+    - Old 区
+    - TLAB
+    - Eden 区
+    - BTP
+  - 对象存储布局
+  - 对象引用
+    - 指针与引用
+    - 四种引用类型
+      - 强引用
+      - 软引用
+      - 弱引用
+      - 虚引用
+  - 对象定位
+    - 句柄
+    - 直接指针
+  - 为什么 HotSpot 不使用 C++ 对象来代表 Java 对象？
+- **[5. Garbage Collection Fundamentals](./CSE301.md)**
+  - 5.1 引用计数法
+    - 定义
+    - 优点
+    - 缺点
+  - 5.2 可达性分析
+  - 5.3 标记-清除算法 Mark-Sweep
+    - 优点
+    - 缺点
+  - 5.4 标记-复制算法 Mark-Copying
+    - 优点
+    - 缺点
+  - 5.5 标记-压缩算法 Mark-Compact
+    - 优点
+    - 缺点
+  - 5.6 分代收集 Generational
+    - 年轻代 Young Generation
+      - Eden 区
+      - Survivor 区
+    - 老年代 Old Generation
+    - 永久代 / 元空间
+    - Partial GC
+      - Minor GC / Young GC
+      - Major GC / Old GC
+      - Mixed GC
+    - Full GC
+      - Full GC 触发条件
+    - 分代方式的进化
+    - 进入老年代的时机
+    - 动态年龄判定
+  - 5.7 STW（Stop The World）
+- **[6. G1 Garbage Collector](./CSE301.md)**
+  - G1 总览
+    - G1 为什么出现（CMS 的局限）
+  - Region-based Heap（分区收集）
+    - Humongous Object（巨型对象）
+  - 三色标记、漏标与错标
+    - 标记过程
+    - 漏标
+    - 错标
+  - Remembered Set / Card Table（记忆集与卡表）
+  - G1 的 GC 类型
+    - Young GC
+      - 过程
+    - Concurrent Marking Cycle（并发标记周期）
+    - Mixed GC
+      - 拷贝存活对象
+    - Full GC
+  - 停顿目标 MaxGCPauseMillis
+  - Interview Answer — 1~2 分钟讲清 G1
+- **[7. ZGC](./CSE301.md)**
+  - ZGC 总览
+  - ZGC 为什么停顿低
+    - Colored Pointers（染色指针）
+    - Load Barriers（读屏障）
+  - Generational ZGC（分代演进）
+  - G1 vs ZGC
+  - Interview Answer — 1~2 分钟讲清 ZGC
+- **[8. Other Garbage Collectors](./CSE301.md)**
+  - 并行时代 – Parallel Scavenge / Parallel Old
+  - 串行时代 - Serial + Serial Old
+  - CMS（Legacy，已从现代 JDK 移除）
+    - 主要阶段（简化）
+    - 存在的问题
+      - 对处理器敏感
+      - 内存碎片
+      - 浮动垃圾
+      - 并发失败 Concurrent Mode Failure
+    - 为什么被 G1 取代
+  - Shenandoah / Epsilon 简述
+- **[9. Execution & Compilation](./CSE301.md)**
+  - 混合模式 -Xmixed
+  - 纯解释模式 -Xint
+  - 纯编译模式 -Xcomp
+  - JIT 即时编译器与分层编译
+  - AOT(Ahead of Time)编译器
+      - 优势
+      - 劣势
+  - Graal 编译器
+- **[A. Client VM / Server VM 与 jvm.cfg](./CSE301.md)**
+    - Server VM(-server)
+    - Client VM(-client)
+  - 配置文件的位置
+- **[B. 常见 JVM 历史](./CSE301.md)**
+- **[C. Class File 二进制结构（Deep Reference）](./CSE301.md)**
+    - Class文件
+      - 格式
+      - 查看Class文件二进制码
+- **[D. CMS 深入细节（Deep Reference）](./CSE301.md)**
+  - 完整七阶段
+    - 预清理阶段 CMS concurrent preclean
+    - 可中断预清理阶段 CMS concurrent abortable preclean
+    - 并发标记阶段的引用变化处理
+  - 记忆集与卡表（CMS 实现）
+    - 记忆集 RSet(Remember Set)
+    - 卡表 Card Table
+    - mod-union table
+    - 写屏障
+  - CMS 调优参数（Historical）
+    - 内存碎片的缓解
+    - 浮动垃圾的缓解
+    - 并发失败的缓解
+- **[E. 其他打破双亲委派的场景](./CSE301.md)**
+  - OSGi
+  - JNDI
+
+## :closed_lock_with_key: CSE311 - Multi-thread Programming
+
+> 操作系统和 JVM 的多线程并发编程知识。
+
+- **[线程基础](./CSE3111.md)**
+  - CPU
+    - 冯诺依曼体系
+      - 数据处理过程
+  - 操作系统
+    - 基本功能
+  - 内核态
+    - 宏内核
+    - 微内核
+  - 用户态
+  - 多线程
+    - 上下文
+    - 上下文切换
+      - 引发原因
+    - 线程状态
+      - 创建状态 (new)
+      - 就绪状态 (ready)
+      - 运行状态 (running)
+      - 阻塞状态 (waiting)
+      - 结束状态 (terminated)
+    - 线程调度策略
+    - 使用多线程的原因
+      - 发挥多核 CPU 的优势
+        - 并发
+        - 并行
+      - 防止阻塞
+      - 便于建模
+    - 进程 Process
+      - PCB
+    - 线程 Thread
+      - TCB
+      - JVM线程
+        - 主要组成
+        - 数量限制
+        - 线程状态
+        - Future模式
+        - 回调模式
+        - CompletableFuture
+        - 创建线程
+        - 线程睡眠/让步
+        - join()
+        - interrupt()
+        - 为什么不推荐使用stop()?
+        - 为什么不推荐使用suspend()?
+        - ThreadLocal
+      - Go线程
+      - 进程 VS 线程
+    - 协程 Coroutine
+      - Go routine VS Java Forkjoinpool
+- **[JMM 与 volatile](./CSE3112.md)**
+  - Java Memory Model (JMM)
+    - CPU缓存
+      - MESI协议
+      - 总线嗅探
+        - 缺点
+      - 伪共享
+      - 合并写
+    - 指令重排序
+      - as-if-serial
+      - Happens-before原则
+    - 内存屏障
+      - CPU级别 (X86)
+        - sfence指令
+        - lfence指令
+        - mfence指令
+      - JVM级别
+        - LoadLoad屏障
+        - StoreStore屏障
+        - LoadStore屏障
+        - StoreLoad屏障
+    - volatile
+      - 保持线程可见性
+      - 禁止重排序
+        - 字节码层面
+        - JVM层面
+        - OS和硬件层面
+      - 满足线程安全的条件
+        - 对变量的写入操作不依赖其当前值
+        - 该变量没有包含在具有其他变量的不变式中
+      - volatile能使得一个非原子操作变成原子操作吗？
+      - 能创建volatile数组吗？
+      - volatile VS synchronized
+    - 并发编程三要素
+      - 原子性
+        - 如何保证
+      - 可见性
+        - 如何保证
+      - 有序性
+        - 如何保证
+    - 原子操作
+      - 规则
+  - JSR-133
+    - volatile规则
+    - final规则
+      - 写final域重排序规则
+      - 读final域重排序规则
+- **[synchronized 与锁机制](./CSE3113.md)**
+  - synchronized
+    - 实现原理
+      - Java代码层面
+      - 字节码层面
+      - JVM层面
+      - OS和硬件层面
+    - 锁的特性
+      - 独占锁
+      - 悲观锁
+      - 可重入锁
+        - 用途
+        - 用例
+      - 重量级锁
+      - 非公平锁
+      - 作用域
+        - 对象锁-同步代码块
+        - 对象锁-同步方法
+        - 类锁-同步类
+        - 类锁-同步静态方法
+    - 锁升级过程
+      - 无锁状态
+      - 偏向锁状态
+        - 不启动偏向锁的情况
+      - 轻量级锁状态
+      - 重量级锁状态
+      - Markword中锁的标记位
+    - wait(), notify(), notifyAll()
+      - 为什么定义在Object类而不是Thread类？
+        - 这些方法依赖于“对象的同步锁”
+        - 这些方法代表了Java线程间的通信机制
+      - wait()
+        - 为什么要在循环中调用？
+        - 为什么要在同步方法/代码块中调用？
+      - notify()
+        - 假死问题
+      - notifyAll()
+      - 为什么要在同步块中调用？
+    - synchronized VS ReentrantLock
+  - 死锁
+    - 条件
+      - 互斥
+      - 请求和保持
+      - 不剥夺
+      - 循环等待
+    - synchronized内部调用synchronized造成的死锁
+    - 死锁检查
+    - 死锁预防
+      - 正确的顺序获得锁
+      - 超时放弃
+      - 银行家算法
+    - 检测当前线程是否持有锁
+  - 锁优化
+    - 减少锁的持有时间
+    - 减小锁的粒度
+    - 锁分离
+    - 锁粗化 lock coarsening
+    - 锁消除 lock eliminate
+- **[CAS 与原子类](./CSE3114.md)**
+  - 并发包JUC
+  - Unsafe VS Varhandle
+  - CAS
+    - 乐观锁
+    - 实现
+    - CAS算法
+    - 优点
+    - 缺点
+      - CPU开销较大
+      - 不能保证代码块的原子性
+      - ABA问题
+    - 自适应自旋
+  - atomic
+    - 原子操作
+      - 原理
+    - LongAdder
+- **[锁与同步工具](./CSE3115.md)**
+  - locks
+    - 线程安全
+    - Lock接口
+    - Condition接口
+      - await()/signal()/signalAll()
+    - ReentrantLock
+      - 等待可中断
+      - 锁绑定多个条件
+      - 非公平锁/公平锁
+    - ReentrantReadWriteLock 可重入读写锁
+    - AQS
+    - CLH锁
+      - 实现
+      - 同步状态state
+        - 独占锁（排它锁、互斥锁、写锁或X锁）
+        - 共享锁（读锁或S锁）
+      - 节点属性
+      - 构造函数
+      - 优点
+      - 缺点
+    - MCS锁
+    - LockSupport
+      - 特点
+  - 同步工具
+    - CountDownLatch 门栓
+    - CyclicBarrier 栅栏/循环屏障
+    - Phaser 阶段器
+    - Exchanger 交换者
+    - Semaphore 信号量
+- **[线程池](./CSE3116.md)**
+  - 线程池
+    - 使用原因
+    - 相关接口和类
+      - Executor
+      - ExecutorService
+      - ThreadPoolExecutor
+        - 常量参数
+        - 构造方法
+        - 控制线程池线程的优先级
+        - 线程池的阻塞队列使用无界阻塞队列会出现什么问题？
+        - 拒绝策略处理类
+      - Executors.newCachedThreadPool() 可缓存线程池
+      - Executors.newFixedThreadPool() 定长线程池
+      - Executors.newScheduledThreadPool() 支持定时及周期性任务的定长线程池
+      - Executors.newSingleThreadExecutor() 单线程化的线程池
+      - Executors.newSingleThreadScheduledExecutor() 支持定时及周期性任务的单线程化的线程池
+      - ForkJoinPool
+      - WorkStealingPool
+    - 大小设置
+    - 线程池的启动
+    - 执行逻辑
+    - addWorker方法
+    - shutdown方法
+- **[并发容器](./CSE3117.md)**
+  - 同步容器
+  - 并发容器
+    - 常见容错机制
+      - failover 失效转移
+      - failfast 快速失败
+      - failback 失效自动恢复
+      - failsafe 失效安全
+    - CopyOnWrite
+      - CopyOnWriteArrayList
+      - CopyOnWriteArraySet
+    - ConcurrentHashMap
+      - Get方法
+      - Put方法
+      - Size方法
+      - 性能
+      - concurrencyLevel
+      - JDK 8优化
+        - 取消分段锁机制
+        - 引入红黑树结构
+        - 使用了更加优化的方式统计集合内的元素数量
+    - ConcurrentTreeMap
+    - ConcurrentSkipListMap
+    - ConcurrentSkipListSet
+    - BlockingQueue 阻塞队列
+      - 主要方法
+      - ArrayBlockingQueue
+      - LinkedBlockingQueue
+      - PriorityBlockingQueue
+      - DelayQueue
+      - SynchronousQueue
+      - LinkedTransferQueue
+      - LinkedBlockingDeque
+    - ConcurrentLinkedQueue 非阻塞队列
+    - 管道输入输出流
+
+## :floppy_disk: CSE351 - Java I/O
+
+> 操作系统和 JVM 的 IO 编程知识。
+
+- **[I/O模型](./CSE3511.md)**
+  - 基本概念
+    - 阻塞 VS 非阻塞
+      - 阻塞
+      - 非阻塞
+    - 同步 VS 异步
+      - 同步
+      - 异步
+  - Unix I/O模型
+    - 阻塞式 I/O
+    - 非阻塞式 I/O
+    - I/O 多路复用
+      - select模型
+        - 运行机制
+        - 优点
+        - 缺点
+      - poll模型
+        - select和poll的共同点
+        - select和poll的不同点
+        - 应用场景
+      - epoll模型
+        - 工作模式
+      - 应用场景
+    - 信号驱动 I/O
+    - 异步 I/O
+  - 文件描述符
+  - Socket通信模型
+    - BIO
+    - NIO
+- **[Java I/O](./CSE3512.md)**
+  - IO / BIO / 基本IO
+    - 定义
+    - 缺点
+    - IO包
+      - 字节流 Stream VS 字符流 Reader/Writer
+      - 字节流/字符流实战
+        - 字节流读文件
+        - 字节流写文件
+        - 字符流读文件
+        - 字符流写文件
+    - BIO通信实战
+      - 服务端
+      - 客户端
+    - UDP通信实战
+      - 服务端
+      - 客户端
+  - NIO / 非阻塞IO
+    - 定义
+    - 单线程的局限
+    - Selector
+    - Channel
+      - FileChannel实战
+        - 读文件
+        - 写文件
+    - Buffer
+    - NIO通信实战
+      - 服务端
+      - 客户端
+    - 常见问题
+      - 正确处理connect
+      - Selector返回的key集合非线程安全
+      - 处理事件移除key
+      - 同时注册OP_ACCEPT和OP_READ / 同时注册OP_CONNECT和OP_WRITE
+  - AIO / 异步IO
+    - 定义
+    - 对比NIO
+    - AsynchronousFileChannel实战
+      - 读文件
+      - 写文件
+    - AIO通信实战
+      - 服务端
+      - 客户端
+- **[Netty](./CSE3513.md)**
+  - 定义
+  - 应用场景
+    - 作为 RPC 框架的网络通信工具
+    - 实现一个自己的 HTTP 服务器
+    - 实现一个即时通讯系统
+    - 实现消息推送系统
+  - 核心组件
+    - Channel
+    - EventLoop
+    - ChannelFuture
+    - ChannelHandler
+    - ChannelPipeline
+    - EventLoopGroup
+  - 线程模型
+    - 单线程模型
+    - 多线程模型
+    - 主从多线程模型
+  - 启动流程
+    - 服务端
+    - 客户端
+- **[序列化](./CSE3514.md)**
+  - 什么是序列化/反序列化？
+  - 常见的序列化
+    - Java原生序列化
+    - Hessian 序列化
+    - JSON 序列化
+  - serialVersionUID
+  - transient关键字
+
+## :ambulance: CSE381 - Java Production Troubleshooting & Performance
+
+> 线上 Java 服务的故障排查 SOP、性能诊断与 JVM 调优主战手册。
+
+- **[1. Production Troubleshooting Methodology](./CSE381.md)**
+  - 核心思想：Evidence Before Tuning
+  - 统一排查 SOP
+  - Observe
+  - Scope
+  - Mitigate
+  - Diagnose
+  - Fix & Verify
+  - Postmortem
+- **[2. CPU 100% / High CPU](./CSE381.md)**
+  - 经典定位 SOP：top → jstack
+    - 步骤一：找到最消耗CPU的进程
+    - 步骤二：找到最耗CPU的线程
+    - 步骤三：将线程PID转化为16进制
+    - 步骤四：查看堆栈，找到线程在干嘛
+  - CPU 高 ≠ Load Average 高
+  - 常见根因清单
+  - Interview SOP — CPU 100% 怎么排查？
+- **[3. Memory / OOM](./CSE381.md)**
+  - OOM 类型总览
+  - Java Heap OOM
+    - 原因分类
+    - 示例
+    - GC overhead limit exceeded
+    - 排查 SOP
+    - 解决
+    - 真实场景示例
+  - Metaspace OOM
+    - 原因
+    - 示例
+    - 排查与解决
+  - Direct Memory OOM
+    - 关联场景
+    - 排查要点
+    - 修复
+  - Unable to Create New Native Thread
+    - 上限来自三层
+    - 排查与修复
+  - StackOverflowError
+    - 原因
+    - -Xss 的取舍
+  - Native Memory（堆外内存）总览
+  - OS OOM Killer ≠ JVM OutOfMemoryError
+  - Out of swap space
+  - Requested array size exceeds VM limits
+- **[4. Memory Leak](./CSE381.md)**
+  - Leak ≠ OOM
+  - 典型 Java 泄漏模式
+  - Heap Dump 分析 SOP
+- **[5. GC Problems](./CSE381.md)**
+  - Frequent Young GC
+    - 看什么
+    - 常见根因
+    - 修复方向
+  - Frequent / Unexpected Full GC
+    - Interview SOP — Full GC 频繁怎么办？
+  - Long GC Pause
+  - GC Log Analysis
+    - 现代 Unified Logging（JDK 9+）
+    - Legacy 格式（JDK 8 及以前）
+- **[6. Thread Problems](./CSE381.md)**
+  - 死锁 Deadlock
+    - SOP
+    - 修复
+  - BLOCKED（热锁）
+  - WAITING / TIMED_WAITING
+  - Thread Explosion（线程暴涨）
+  - Thread Pool Exhaustion（线程池打满）
+    - 事故链（背下来）
+    - 看什么指标
+    - 现场取证
+    - 修复
+  - 进程假死（Hung but Alive）
+- **[7. High Latency / RT Spike](./CSE381.md)**
+  - 第一原则
+  - 排查树
+  - 常见入口与证据
+  - 方法论要点
+- **[8. JVM Diagnostic Toolkit](./CSE381.md)**
+  - OS Layer
+  - JDK Tools
+    - jcmd
+    - jps
+    - jstack
+    - arthas
+    - jmap
+    - jstat
+    - jinfo
+      - 查看
+      - 修改
+    - jconsole / jvisualvm（可视化）
+  - JFR / JMC（现代低开销持续观测）
+  - Heap Analysis
+  - Native Memory Tracking (NMT)
+    - 打开NMT
+    - jcmd查看NMT报告
+    - VM退出时打印NMT
+- **[9. JVM Performance Tuning](./CSE381.md)**
+  - 调优目标
+  - 调优时机
+  - Heap Sizing
+    - Xms / Xmx
+    - 固定堆大小与伸缩区
+      - 优点
+      - 缺点
+    - 容器内堆大小
+  - Stack（-Xss）
+  - GC Selection（现代主线）
+  - Pause vs Throughput vs Footprint
+  - G1 Tuning
+  - ZGC
+  - 常用参数速查
+    - 参数分类（java命令）
+    - -XX 参数表（现代主线版）
+    - 参数优化要点
+      - 固定堆大小
+      - 合理调整分代大小比例
+- **[10. Performance Testing & Benchmark](./CSE381.md)**
+  - 不要用 System.currentTimeMillis 循环做 microbenchmark
+  - JMH 微基准测试
+- **[11. Interview Incident Playbook](./CSE381.md)**
+  - Case 1：线上 CPU 突然 100%
+  - Case 2：服务发生 OOM
+  - Case 3：内存持续上涨，是不是 Memory Leak？
+  - Case 4：Full GC 突然频繁
+  - Case 5：接口 RT 从 100ms 变成 3s
+  - Case 6：线程数突然暴涨
+  - Case 7：线程池打满
+  - Case 8：Java 服务假死但进程还在
+- **[PermGen 时代（JDK 7 及以前）](./CSE381.md)**
+- **[CMS 专项（已弃用：JDK 9 弃用，JDK 14 移除）](./CSE381.md)**
+  - promotion failed 与 concurrent mode failure
+  - CMS 压缩参数
+- **[RMI 定时 Full GC（历史场景）](./CSE381.md)**
+- **[旧 GC 日志参数 → Unified Logging 映射](./CSE381.md)**
+- **[其他历史参数与经验值](./CSE381.md)**
+
+## :package: CSE401 - Spring Ecosystem
+
+> Spring Framework Core、Spring Boot、Spring Web、Spring Cloud、Spring Data Access，历史知识与现代实践并存。
+
+- **[Spring Framework Core](./CSE4011.md)**
+  - Spring 是什么
+    - 模块
+    - 优势
+  - IoC 控制反转与依赖注入
+    - Spring容器
+    - 依赖注入Dependency Injection
+    - 工厂类：BeanFactory 与 ApplicationContext
+      - BeanFactory
+      - ApplicationContext
+        - WebApplicationContext
+        - ClassPathXmlApplicationContext
+        - FileSystemXmlApplicationContext
+      - FactoryBean
+    - Bean
+      - BeanDefinition：Bean 的图纸
+      - 作用域
+        - Singleton
+        - Prototype
+        - Request
+        - Session
+        - Global session
+        - Application
+      - 线程安全
+      - 内部Bean
+  - 容器启动与 refresh 工作流程
+      - 加载配置
+      - 启动容器
+    - Bean 的生命周期
+        - createBeanInstance 实例化
+        - populateBean 填充属性
+        - initializeBean 初始化
+        - 就绪
+        - 销毁
+    - BeanPostProcessor 专题
+    - 三级缓存与循环依赖
+      - 为什么不能只用一级缓存？
+      - 为什么不能只用二级缓存？什么是循环依赖问题？
+      - 哪些循环依赖能解，哪些不能解
+        - 单例 + setter循环依赖
+        - 单例 + 构造器循环依赖
+        - 原型循环依赖
+  - AOP 面向切面编程
+    - 过程
+    - 优点
+    - 相关术语
+      - Aspect 切面
+      - Joinpoint 连接点
+      - Advice 通知/增强
+      - Pointcut 切入点
+      - Proxy 代理
+      - Target 代理的目标对象
+      - Weaving 织入
+    - JDK 动态代理 VS CGLIB
+    - 注解方式使用 AOP
+      - AspectJ注解匹配规则
+  - 事务
+    - 提交与回滚
+      - 具体步骤
+      - 回滚失败的情况
+    - 自调用：@Transactional 为什么会失效
+    - 相关接口
+      - PlatformTransactionManager （平台）事务管理器
+      - TransactionDefinition 事务定义信息
+      - TransactionStatus 事务运行状态
+    - 失效的情况
+    - 传播行为
+      - Propagation_REQUIRED
+      - Propagation_REQUIRES_NEW
+      - Propagation_NESTED
+      - 三者对比（面试必背）
+      - Propagation_MANDATORY
+      - Propagation_NEVER
+      - Propagation_NOT_SUPPORTED
+      - Propagation_SUPPORTS
+    - 隔离级别
+    - 本地事务的边界
+  - 事件机制
+  - Spring 中的设计模式
+  - 装配方式的演进
+    - 注解装配
+      - 自动装配
+    - 使用 Java 配置
+  - Appendix — Legacy Knowledge
+    - Appendix A — 版本历史
+      - Spring 1
+      - Spring 2
+      - Spring3
+      - Spring 4
+      - Spring 5
+    - Appendix B — XML 装配完整教程
+      - XML 自动装配
+      - XML 方式配置 AOP
+    - Appendix C — 类型与 ResolvableType
+      - Type
+      - ResolvableType
+    - Appendix D — 事件 API 源码
+      - EventObject
+      - ApplicationEvent
+      - ApplicationContextEvent
+      - EventListener
+      - ApplicationListener
+      - SmartApplicationListener
+      - GenericApplicationListener
+      - GenericApplicationListenerAdapter
+      - ApplicationEventMulticaster
+      - AbstractApplicationEventMulticaster
+      - SimpleApplicationEventMulticaster
+    - Appendix E — 老式工程搭建
+      - 创建标准工程
+      - 创建Maven工程
+- **[Spring Boot](./CSE4012.md)**
+  - Spring Boot 解决什么问题
+  - 基本介绍
+  - 入口类与 @SpringBootApplication
+    - @ComponentScan
+    - @EnableAutoConfiguration
+    - @Conditional
+  - 自动配置如何生效
+  - SpringApplication.run 主流程
+    - 启动事件时间线
+    - ApplicationRunner 与 CommandLineRunner
+  - 内嵌 Web Server
+  - 配置体系：application.yml 与 Profile
+    - 配置文件路径优先级
+    - 修改 Spring Boot 自带配置
+    - @ConfigurationProperties 与 @Value
+    - 多环境 Profile
+    - 静态资源配置
+  - Actuator 基础
+  - 演进：Spring Boot 2 → 3 → 4
+  - Appendix A — 启动流程源码 Deep Dive
+    - SpringApplication构造方法
+    - SpringApplication.run方法
+      - 1.创建并启动计时监控类
+      - 2.初始化应用上下文和异常报告集合
+      - 3.设置系统属性java.awt.headless的值为true
+      - 4.创建所有spring运行监听器并发布应用启动事件
+      - 5.通过调用starting()方法通知所有的SpringApplicationRunListeners应用已开始启动
+      - 6.初始化默认应用参数类
+      - 7.根据运行监听器和应用参数来准备Spring环境
+      - 8.将要忽略的bean的参数打开
+      - 9.创建Banner打印类
+      - 10.根据是否是web项目，来创建不同的ApplicationContext应用上下文，即容器
+      - 11.初始化ApplicationContext
+      - 12.刷新应用上下文
+      - 13.应用上下文刷新后置处理
+      - 14.停止计时监控类
+      - 15.将执行主类名、时间信息记录至输出日志
+      - 16.发布应用上下文启动监听事件
+      - 17.执行所有的Runner运行器
+      - 18.发布应用上下文就绪事件
+      - 19.返回应用上下文
+  - Appendix B — 历史实战教程
+  - Spring Boot实战
+    - Web开发的步骤
+    - 搭建工程
+    - Starter pom
+    - 开发者工具devtools
+    - 自定义Banner
+    - 全局配置文件完整示例
+      - @ConfigurationProperties
+      - @Value
+    - 静态资源配置源码
+    - XML配置文件
+    - 控制器 Controller
+    - 服务类 Servlet
+    - 过滤类 Filter
+    - 监听器 Listener
+      - 事件发布运行监听器 Run Listeners
+      - 服务监听器 Application Listeners
+        - 使用场景
+    - 统计在线人数示例
+- **[Spring Web & MVC](./CSE4013.md)**
+  - Servlet 模型最小背景
+  - DispatcherServlet 前端控制器
+  - Spring MVC 请求处理流程
+    - HandlerMapping 与 HandlerAdapter
+  - Controller 与参数绑定
+  - HttpMessageConverter
+  - 拦截器与过滤器
+    - 拦截器 Interceptor
+    - Filter vs Interceptor 对比
+  - Bean Validation：@Valid / @Validated
+  - 全局异常处理：@ControllerAdvice / @ExceptionHandler
+  - REST API
+  - Spring MVC vs WebFlux（理解层）
+  - Appendix — Classical Java Web / Servlet / JSP
+    - Tomcat 结构
+    - Tomcat 请求处理流程
+    - forward 转发 vs redirect 重定向
+      - 转发（forward）
+      - 重定向（redirect）
+    - Tomcat 参数优化
+    - Web 应用结构
+    - Servlet
+      - 生命周期
+        - 类装载过程
+        - 初始化过程
+        - 服务过程
+        - 销毁过程
+    - JSP
+      - 基本语法
+      - JSP 作用域
+      - JSP VS Servlet
+    - 过滤器与监听器
+      - 过滤器
+      - 监听器
+    - 传统 WAR 工程搭建（web.xml 时代）
+- **[Spring Cloud & Microservice Integration](./CSE4014.md)**
+  - Spring Boot vs Spring Cloud
+  - 为什么微服务需要服务治理
+  - 核心知识图
+  - 核心组件
+    - Service Registration / Discovery 服务注册与发现
+    - 服务间调用：OpenFeign
+    - Client-side Load Balancing 客户端负载均衡
+    - API Gateway 网关
+    - Configuration Center 配置中心
+    - Timeout / Retry / Circuit Breaker / Degrade / Rate Limit
+      - 断路器三状态
+    - Observability 基本概念
+    - 当前常见组件角色表
+  - Appendix — Legacy Spring Cloud Netflix Stack
+    - Netflix Eureka
+    - Netflix Hystrix
+      - 使用原因
+      - Hystrix 默认参数（历史行为）
+    - Netflix Zuul
+    - Spring Cloud Ribbon
+    - Spring Cloud Config
+    - Sleuth + Zipkin
+    - Feign
+- **[Spring Data Access](./CSE4015.md)**
+  - Java Data Access 总览
+  - 基本概念
+    - DAO
+    - ORM
+  - JDBC
+    - 执行流程
+    - 架构
+    - SPI机制
+    - JDBC URL
+    - PreparedStatement 与 SQL 注入
+  - DataSource 与连接池
+    - DataSource
+      - DriverManagerDataSource
+      - BasicDataSource
+  - Spring JdbcTemplate
+      - NamedParameterJdbcTemplate
+  - MyBatis
+    - 架构
+    - 执行基本流程
+    - 运行流程
+    - 优势
+    - 劣势
+    - #{} VS ${}
+  - JPA / Hibernate / Spring Data JPA
+    - Hibernate
+  - Spring 事务与 Data Access
+  - Appendix — Legacy
+    - 静态SQL / 动态SQL（教材定义）
+    - JdbcTemplate 完整 CRUD 示例
+    - MyBatis VS Hibernate（老式比较）
+
+## :books: DBA101 - MySQL / InnoDB
+
+> 关系型数据库、SQL 编程、存储引擎、索引、事务、并发、调优。
+
+- **[DBA1011 - MySQL & InnoDB 核心原理](./DBA1011.md)**
+  - 本章主线
+  - MySQL 基础架构
+    - Server 层 vs 存储引擎层【P0】
+    - 连接器
+      - 长连接占用内存问题
+    - 查询缓存【历史｜MySQL 8.0 已移除】
+    - 分析器
+      - 词法分析
+      - 语法分析
+      - 预处理器
+    - 优化器
+    - 执行器
+    - 面试回答
+  - 2. 连接池【P1】
+    - 不使用连接池建立连接
+    - 使用连接池建立连接
+      - 连接池的建立
+      - 连接池的管理
+      - 连接池的关闭
+      - 连接池的不同代
+      - 连接池的主要参数
+      - Java 应用的实践要点
+  - InnoDB
+    - 存储结构
+    - 聚簇索引的优缺点
+    - 逻辑存储结构
+      - 表空间
+      - 段
+      - 区
+      - 页
+      - 行
+    - Buffer Pool 与脏页【P0】
+    - 面试回答
+  - 4. 双写 Double Write【P2】
+  - Redo Log 的两个反事实【P2】
+    - 如果没有redo log只有undo log
+    - 如果没有undo log只有redo log
+  - Redo Log（重做日志）
+    - 作用
+    - WAL(Write-Ahead Logging)【P0】
+    - Force-log-at-commit
+    - 内容
+    - 什么时候产生
+    - 什么时候释放
+    - 刷盘机制
+  - Undo Log（回滚日志）
+    - 作用
+    - 内容
+    - 什么时候产生
+    - 什么时候释放
+  - Binlog（二进制日志）
+    - 作用
+      - 主从同步
+      - 用于数据库的基于时间点的还原
+    - 内容
+    - 什么时候产生
+    - 什么时候释放
+  - 三者对比表【P0】
+    - 面试回答
+    - Redo 和 Binlog 为什么都需要？【P1】
+  - 如果不使用两阶段提交
+    - 先写redo log后写binlog
+    - 先写binlog再写redo log
+    - 面试回答
+  - 自增id
+  - row id
+  - Xid
+  - max_trx_id
+  - thread_id
+  - InnoDB VS MyISAM
+  - Memory
+  - 达梦怎么防守
+  - Oracle 怎么防守【P1】
+  - 本章验收
+- **[DBA1012 - 事务、MVCC 与锁](./DBA1012.md)**
+  - 本章主线
+  - 什么是事务
+  - ACID 基本要素
+    - 例子
+    - 放回系统
+    - 面试回答
+  - 更新丢失
+    - 回滚丢失
+    - 覆盖丢失/两次更新问题
+  - 脏读
+  - 不可重复读
+  - 幻读
+  - 面试回答
+  - 为什么需要 MVCC
+    - 例子
+    - 用途
+    - 隔离级别限制
+  - 实现原理：三个隐式字段 + Undo + ReadView【P0】
+    - 隐式字段
+    - undo log 版本链
+      - insert undo log
+      - update undo log
+    - ReadView 判断数据行可见性【P0】
+    - RC 和 RR 的区别：ReadView 生成时机【P0】
+    - 面试回答
+    - 面试回答
+  - 锁的粒度
+    - 表级锁 (table-level locking)
+    - 页级锁 (page-level locking)
+    - 行级锁 (row-level locking)
+  - S 锁与 X 锁【P0】
+    - 共享锁/读锁/S锁
+    - 排他锁/写锁/X锁
+  - 乐观锁与悲观锁【P1】
+    - 乐观锁
+    - 悲观锁
+  - 加锁方式：行锁锁的是索引【P0】
+    - 记录锁 Record lock【P0】
+    - 间隙锁 Gap lock【P0/P1】
+    - 临键锁 Next-key lock【P0】
+    - 插入意向锁 Insert Intention Lock
+    - 锁范围取决于什么
+  - 执行流程（更新视角）
+  - 并发场景：两个请求同时 UPDATE 同一行【P0】
+  - GoPay 真实映射（事实锚点）
+  - 并发控制工具箱：怎么选【P0】
+    - 面试回答
+  - 元数据锁 MDL
+  - Latch
+  - 什么是死锁
+    - InnoDB 的死锁场景
+    - MyISAM 为什么没有死锁
+  - 定位
+  - 常见优化
+    - 面试回答
+  - 本章验收
+- **[DBA1013 - 索引、EXPLAIN 与 SQL 优化](./DBA1013.md)**
+  - 本章主线
+  - 定义
+  - 为什么需要（磁盘视角）
+  - 优点
+  - 缺点
+  - 局限性
+  - 使用方式
+    - 面试回答
+  - B树
+    - B树的优点
+  - B+树
+    - B+树的优点
+    - 面试回答
+  - InnoDB：聚簇索引
+    - 自增主键 vs 非自增主键
+  - 二级索引与回表
+  - MyISAM：非聚簇索引
+    - 面试回答
+    - 优点
+    - 存储引擎差异
+    - 面试回答
+    - 面试回答
+  - 主键 Primary key
+  - 普通索引 Normal Index
+  - 唯一索引 Unique Index
+  - 全文索引 Fulltext Index
+  - 联合/组合索引 Union Index
+  - 外键
+  - 哈希索引
+    - 缺点
+    - 存储引擎
+  - 空间数据索引【P2】
+    - 面试回答
+  - 先记五个字段【P0】
+  - type 怎么看【P0】
+  - key / rows / Extra【P0】
+    - 面试回答
+  - 展开为可口述的步骤
+  - 例子
+    - 面试回答
+  - 使用场景
+  - 全字段排序
+  - RowId排序
+  - 假分页 vs 真分页
+  - 深分页问题
+  - 避免回表查询
+  - 索引下推 ICP（Index Condition Pushdown）
+    - 启动方式
+    - 使用条件
+  - 使用前缀索引
+  - 更新频繁的字段上不宜建立索引
+  - 索引列的顺序
+  - 使用场景
+    - WHERE
+    - JOIN
+    - 表结构文件
+    - InnoDB数据文件
+    - MyISAM数据文件
+  - 本章验收
+- **[DBA1014 - 全文检索与倒排索引](./DBA1014.md)**
+  - 本章定位
+    - 一句话
+    - 30 秒面试答案【P0】
+  - 本章验收
+- **[DBA1015 - SQL、数据类型与工具](./DBA1015.md)**
+  - 本章定位
+  - 字符串拼接
+  - LIKE 中的匹配符
+  - CHAR_LENGTH VS LENGTH
+  - 查看建表语句
+  - 获取当前MySQL数据库版本
+  - 数值类型
+  - 字符串：CHAR vs VARCHAR（MySQL 口径）
+  - 日期时间类型
+  - 数据类型的优化
+  - 查看连接信息
+  - 慢查询日志【P0】
+  - Performance Schema 性能模块
+  - 显示查询命令的精确用时【历史】
+  - EXPLAIN
+  - 死锁分析
+  - Linux下将csv导入MySQL
+    - 文件不含中文
+    - 文件含中文
+  - 减少数据访问（减少磁盘访问）
+  - 返回更少数据（减少网络传输或磁盘访问）
+  - 减少交互次数（减少网络传输）
+  - 减少服务器CPU开销（减少CPU及内存开销）
+  - 利用更多资源（增加资源）
+  - IO瓶颈
+  - CPU瓶颈
+  - 附录A. MyISAM 详细结构【Appendix】
+    - 存储结构
+  - 附录B. 关系型数据库概览【Appendix】
+    - Oracle
+    - Microsoft SQL Server
+    - MySQL
+    - MySQL VS Oracle【Appendix】
+    - Oracle 的 VARCHAR 与 VARCHAR2【Appendix】
+    - MySQL VS DB2【Appendix】
+  - 附录C. 范式【Appendix】
+    - 第一范式（1NF）
+    - 第二范式（2NF）
+    - 第三范式（3NF）
+    - 反三范式
+  - 附录D. 存储过程 / 视图 / 触发器【Appendix】
+    - 存储过程
+    - 视图
+    - 触发器
+  - 附录E. 分库分表【Appendix｜只到概念层】
+    - 分库
+    - 分表
+    - 水平拆分
+    - 垂直拆分
+    - 按照范围拆分
+    - 按照哈希值拆分
+    - 分表的时机
+  - 本章验收
+
+## :memo: DBA201 - Redis
+
+> 非关系型数据库 Redis：原理、数据结构、缓存设计、分布式锁、持久化与高可用。
+
+- **[DBA2011 - 原理与数据结构](./DBA2011.md)**
+  - Redis 是什么【P0】
+    - 人话解释
+    - 应用场景
+    - 优点
+    - 缺点
+    - 面试回答【30-60 秒】
+  - Redis 为什么快？【P0】
+    - 面试回答【30-60 秒】
+  - 五种常见数据类型【P0】
+    - String 字符串
+    - Hash 哈希
+    - List 列表
+    - Set 集合
+    - Zset (sorted set) 有序集合
+    - 面试回答【30-60 秒】
+  - 过期策略【P0】
+    - TTL 是什么
+    - TTL 到点会立即物理删除吗【P1】
+    - 过期删除 vs 内存淘汰【P0】
+  - 内存淘汰机制【P0｜历史失分】
+    - LRU / LFU【P0｜历史失分】
+    - 淘汰策略需要背多少？【P1】
+    - 面试回答【30-60 秒】
+  - Redis 事务【P1】
+  - 管道操作 Pipeline【P1】
+  - 内存和性能优化【P1】
+  - Redis 版本号【P2】
+  - 数据结构（底层实现）【P2】
+    - Rehash
+      - 触发扩容条件
+      - 触发缩容条件
+      - 具体步骤
+    - 渐进式 Rehash
+      - 详细步骤
+      - 优点
+  - P2 止损（不深挖）
+- **[DBA2012 - 缓存设计与生产问题](./DBA2012.md)**
+  - Cache Aside 缓存模式【P0】
+    - 人话解释
+    - 读取
+    - 更新
+    - 放回系统
+    - 面试回答【30-60 秒】
+  - 为什么不简单同时更新 DB 和 Redis？【P0】
+    - 人话解释
+    - 常见思路
+    - 为什么常"先更新 DB，再删缓存"
+    - 但不是绝对强一致
+    - 面试回答【30-60 秒】
+  - 缓存穿透【P0】
+    - 人话解释
+    - 为什么危险
+    - 方案
+    - 放回系统
+    - 面试回答【30-60 秒】
+  - 缓存击穿【P0】
+    - 人话解释
+    - 核心解决思想
+    - 方案
+    - 系统位置
+    - 面试回答【30-60 秒】
+  - 缓存雪崩【P0】
+    - 人话解释
+    - 危险
+    - 方案
+    - 面试回答【30-60 秒】
+    - 秒答区分
+  - 资金类数据的 Source of Truth【P0++】
+    - 结论
+    - 面试回答【30-60 秒】
+  - 热点数据：Hot Key【P1】
+    - 使用本地缓存
+    - 利用分片算法的特性，对 key 进行打散处理
+  - Big Key【P1】
+  - Redis 挂了怎么办？【P0】
+    - 人话解释
+    - 应用保护
+    - Redis 层
+    - 放回系统
+    - 面试回答【30-60 秒】
+  - 宕机后的降级策略【P0++】
+    - 场景 A：普通读缓存
+    - 场景 B：分布式锁
+    - 场景 C：Session / 临时状态
+    - 面试回答【30-60 秒】
+  - Redis 线上问题排查 SOP【P0/P1】
+    - 通用工具
+    - Redis 变慢 / Timeout
+    - Memory 暴涨
+    - Eviction 增加
+    - Hot Key / Big Key
+    - 连接池耗尽
+    - 网络 / 连接问题
+    - Redis Down / Cache Avalanche / DB 被打满
+  - 应用场景与业务案例【P1】
+    - 高并发抢红包
+    - 新浪微博
+    - 秒杀【P1】
+  - 开发与接入【P2】
+    - 命令行方式 redis-cli
+    - API 方式
+    - Jedis (Java)
+    - 中信 CBJUP3.0 缓存工具类 (Java)
+- **[DBA2013 - 分布式锁](./DBA2013.md)**
+  - 为什么需要分布式锁？【P0】
+    - 人话解释
+    - 为什么需要
+    - 图
+    - 放回系统
+    - 面试回答【30-60 秒】
+  - Redis 分布式锁基础实现【P0】
+    - 面试回答【30-60 秒】
+  - 为什么不能直接 DEL 解锁？【P0】
+    - 面试回答【30-60 秒】
+  - 锁还没执行完就过期怎么办？【P0｜历史失分】
+    - 人话解释
+    - Watchdog
+    - 图
+    - 面试回答【30-60 秒】
+  - Redisson / Watchdog【P0/P1｜历史失分】
+    - 人话解释
+    - 为什么需要
+    - Watchdog
+    - 系统位置
+    - 面试回答【30-60 秒】
+  - 分布式锁完整答案【P0++】
+  - 边界：什么时候不用 Redis 锁【P0++】
+    - 面试回答【30-60 秒】
+  - 常见追问【P2】
+- **[DBA2014 - 持久化 / 高可用 / 集群](./DBA2014.md)**
+  - RDB【P1】
+    - 操作过程
+    - 优点
+    - 缺点
+  - AOF【P1】
+    - 操作过程
+    - 相关参数
+    - Rewrite 重写机制
+    - 优点
+    - 缺点
+  - RDB VS AOF【P1】
+    - 面试回答【30-60 秒】
+  - 单机模式【P2】
+  - 主从复制模式【P1】
+    - 全量复制
+    - 增量复制
+  - 哨兵模式 Sentinel【P0/P1】
+    - 解决什么问题
+    - 优点
+    - 缺点
+    - 定时任务
+    - 下线检测
+    - Sentinel 选举 leader【P2】
+    - 面试回答【30-60 秒】
+  - 集群模式 Cluster【P0/P1】
+    - 解决什么问题
+    - 哈希槽
+    - 优点
+    - 参数配置
+    - 面试回答【30-60 秒】
+  - Sentinel 和 Cluster 怎么选？【P1】
+  - Appendix A：非关系型数据库【Appendix】
+    - 文档数据库 MongoDB
+    - 列族数据库 HBase
+    - 全文搜索引擎 ElasticSearch
+    - Memcached
+      - Redis VS Memcache
+  - P2 止损（本章部分）
+
+## :penguin: SYS151 - Linux Commands
+
+> Linux 常用命令相关资料。
+
+- **[常用目录](./SYS1511.md)**
+  - 常用目录
+- **[常用命令](./SYS1512.md)**
+  - 查看文件、文件夹大小
+    - du命令
+    - df命令
+    - du和df差距过大的可能原因
+    - 什么情况下rm删除文件后不能释放空间？
+    - 快速清空文件
+    - “>”和“>>”的区别
+  - 查看系统内存使用情况
+    - free命令
+    - Cache Memory 缓存内存
+  - 查询系统进程信息
+    - ps命令
+    - top命令
+  - 查找文件 - find命令
+  - 按层次结构复制指定目录下的所有内容到另一个目录 - cp命令
+  - 递归创建目录
+  - 压缩/解压
+    - .tar
+    - .gz
+    - .tar.gz / .tgz
+    - 在不解压tar包的前提下查看内容
+  - 软连接（softlink）和硬连接（hardlink）
+  - 查找文件安装路径 - whereis命令
+  - 查询运行文件所在路径 - which命令
+  - grep命令
+    - echo命令输出不换行
+  - 查看大文件
+    - cat命令
+    - tac命令
+    - more命令
+    - less命令
+    - head命令
+    - tail命令
+    - od命令
+  - sort和uniq命令
+    - sort命令
+    - uniq命令
+    - 交集
+    - 并集
+    - 差集
+    - 查询一个文件重复最多的前10条记录
+  - 显示文件的奇数行部分或偶数行部分
+  - wc命令
+- **[常用命令 - 网络](./SYS1513.md)**
+  - 检查网络连接 - ping命令
+  - 发起请求 - curl命令
+  - 远程拷贝文件 - scp命令
+  - 查看网卡信息 - ifconfig命令
+  - 查看端口被什么程序占用
+    - ss命令
+    - netstat命令
+    - lsof命令
+    - fuser命令
+  - 交互式通信 - telnet命令
+  - 远程登录 - ssh命令
+  - 侦测路由情况 - tracert
+  - 修改主机名
+  - 修改域名和IP映射关系
+  - iptables
+- **[Git命令](./SYS1514.md)**
+  - Git和其他版本控制器的区别
+  - 结构
+  - 本地项目添加多个远程仓库
+  - 分支合并
+    - git merge命令
+    - git rebase命令
+    - git fetch命令
+    - git pull命令
+  - 删除本地分支和远程分支
+  - tag命令
+  - 撤销git add命令
+  - 查看代码修改历史
+- **[Shell编程](./SYS1515.md)**
+  - 赋值规范
+  - for循环语句
+    - 列表for循环
+    - 无列表for循环
+    - 类C风格for循环
+  - while循环语句
+  - until循环语句
+  - 逐行处理文本文件
+    - read命令
+    - awk命令
+    - for var in file命令
+  - if语句
+  - 浮点除法
+  - VIM
+    - 一般指令模式（Command mode）
+    - 编辑模式（Insert mode）
+    - 指令列模式（Bottom-line mode）
+      - 替换
+      - 全局替换
+
+## :whale: SYS181 - Containerization & Software Delivery
+
+> Java 服务从 Source Code 到生产环境的完整链路，以及虚拟化、Namespace/cgroup/rootfs 基础。
+
+- **[1. From Code to Production](./SYS181.md)**
+- **[2. Virtual Machine vs Container](./SYS181.md)**
+- **[3. Linux Container Fundamentals](./SYS181.md)**
+  - Cgroup（资源管理和控制）
+  - Namespace（资源隔离）
+  - rootfs
+- **[4. Docker Core Model](./SYS181.md)**
+- **[5. Dockerfile & Java Application Image](./SYS181.md)**
+- **[6. Container Runtime Configuration](./SYS181.md)**
+  - Port
+  - Environment Variable
+  - Volume
+- **[7. CI/CD Delivery Pipeline](./SYS181.md)**
+- **[8. Container Registry & Versioning](./SYS181.md)**
+- **[9. Health Check](./SYS181.md)**
+- **[10. Release Strategies](./SYS181.md)**
+  - Rolling Deployment
+  - Canary Release
+  - Blue-Green（简短补充）
+- **[11. Production Observation](./SYS181.md)**
+- **[12. Rollback & Database Migration](./SYS181.md)**
+  - Rollback
+  - Database Migration
+- **[13. Senior Java Interview SOP](./SYS181.md)**
+  - 60-Second Answer — How Does Your Java Service Reach Production?
+- **[Appendix A - Virtualization](./SYS181.md)**
+  - 时（时间）分复用技术
+  - 空（空间）分复用技术
+  - Hypervisor
+  - 虚拟存储器
+  - 虚拟机的优点
+  - 虚拟机的缺点
+- **[Appendix B - Docker Commands](./SYS181.md)**
+- **[Appendix C - Historical / Low-Priority Details](./SYS181.md)**
+  - LXC 与 Docker 的历史关系
+  - Docker VS KVM
+  - Docker在实际应用中的一些问题和局限性
+
+## :globe_with_meridians: SYS201 - Computer Networks
+
+> HTTP、TCP/IP 等多种协议的计算机网络知识。
+
+- **[计算机网络体系](./SYS2011.md)**
+  - 定义
+  - 计算机网络体系
+    - OSI七层模型
+    - TCP/IP协议体系
+    - 五层协议体系
+    - 层级说明
+      - 应用层
+      - 表示层
+      - 会话层
+      - 传输层
+        - 数据分割重组
+        - 纠错
+        - 管理连接
+        - 流量控制
+        - 端口寻址
+      - 网络层
+        - 路由
+      - 数据链路层
+        - 帧同步
+        - 数据纠错
+      - 物理层
+- **[HTTP协议](./SYS2012.md)**
+  - 基本概念
+    - URI
+      - URL
+      - URN
+  - HTTP请求&响应过程
+    - 解析URL
+    - 生成请求
+      - 格式
+      - 方法
+        - GET VS POST
+      - 头部key
+    - 解析域名
+      - 定义
+      - 分级缓存策略
+      - 查询过程
+      - DNS记录
+        - A记录
+        - CNAME记录 (Canonical Name Record)
+        - MX记录 (Mail Exchanger Record)
+        - NS记录 (Name Server Record)
+        - SOA记录 (Start of Authority Record)
+        - TXT记录
+    - 发送请求
+      - 协议栈
+        - TCP/UDP协议
+        - IP协议
+        - ICMP协议
+        - ARP协议
+      - 网卡驱动程序&网卡
+    - 交换机
+    - 路由器
+    - 接收请求
+    - 生成响应
+      - 格式
+    - 状态码
+    - 发送响应
+    - 接收响应
+  - HTTP 0.9
+  - HTTP 1.0
+    - 修改请求和响应的格式
+    - 增加新的请求方法
+    - 支持长连接
+      - 五元组
+      - 短连接
+      - 长连接
+    - 缓存机制
+      - 强制缓存
+      - 协商缓存
+  - HTTP 1.1
+    - 身份验证
+      - 加密
+        - 对称加密
+        - 非对称加密
+      - 摘要算法
+        - 密码保存
+        - 数据传输
+    - 长连接
+    - 请求流水线
+    - 节约带宽
+    - 控制缓存失效
+    - 断点续传
+    - HOST域
+    - 新增部分请求方法
+    - chunked编码传输
+    - 字节范围请求
+    - HTTPS
+      - 数据传输流程
+        - 建立连接
+        - 获取证书
+        - 验证证书
+        - 协商对称加密算法和密码
+        - 会话建立
+      - TTFB
+      - 缺点
+        - 成本
+        - 安全性
+      - HTTP VS HTTPS
+  - HTTP 2.0
+    - 多路复用
+    - 头部压缩
+    - 二进制格式
+    - 强化安全
+    - 服务器推送
+  - 会话机制
+    - Cookie会话机制
+    - Session会话机制
+    - 全局会话&局部会话
+    - 单系统的登录解决方案
+    - 单点登录
+    - 单点注销
+  - 前端技术
+    - 发展阶段
+      - 第一阶段
+      - 第二阶段
+      - 第三阶段
+      - 第四阶段
+    - 前端开发框架
+      - Augular
+      - Vue
+      - React
+    - 同源策略
+- **[TCP协议](./SYS2013.md)**
+  - TCP协议
+    - 如何保证可靠传输？
+      - 数据分割
+      - 编号排序
+      - 校验和
+      - 丢弃重复数据
+      - 流量控制
+        - 滑动窗口
+        - 滑动窗口的优化
+        - 窗口关闭
+        - 窗口过小
+      - 拥塞控制
+        - 包守恒原则
+        - 慢启动算法
+        - 拥塞避免算法
+        - 拥塞发生算法
+        - 快速恢复算法
+      - 停止等待协议
+      - 重传机制
+        - 超时重传
+        - 快速重传
+        - SACK
+        - Duplicate SACK
+    - 单工 半双工 双工
+    - 连接
+    - 报文格式
+    - TCP粘包&拆包
+      - 粘包原因
+      - 拆包原因
+      - 解决方案
+    - 三次握手
+      - 第一次握手
+        - 第一次握手重传
+      - 第二次握手
+        - 第二次握手为什么要传回SYN？
+        - 第二次握手为什么要传了SYN还要传ACK？
+        - 第二次握手重传
+        - 为什么前两次握手不可以携带数据？
+        - 半连接队列
+      - 第三次握手
+        - 为什么第三次握手可以携带数据？
+        - 全连接队列
+      - 如何绕过三次握手？
+        - 首次建立连接
+        - 再次建立连接时
+      - 三次握手的优化
+        - 客户端的优化
+        - 服务端的优化
+        - 绕过三次握手
+    - 四次挥手
+      - 第一次挥手
+      - 第二次挥手
+      - 第三次挥手
+        - 为什么四次挥手比三次握手多一次？
+      - 第四次挥手
+        - 为什么在主动关闭方第三次挥手后的TIME-WAIT状态必须等待2MSL的时间？
+      - 四次挥手的优化
+        - 主动方的优化
+        - 被动方的优化
+  - UDP协议
+    - 特点
+    - 为什么不能跳过UDP直接调用IP协议？
+    - 报文格式
+  - TCP VS UDP
+  - 端口
+- **[IP协议](./SYS2014.md)**
+  - IP协议
+    - 广播地址
+      - 本地广播
+      - 直接广播
+    - IPv4
+      - 分片 (Fragmentation)
+      - 增加协议头 (IP Header)
+      - 路由&寻址 (Routing & Addressing)
+    - IPv6协议
+      - 切片 (Fragmentation)
+      - 增加封包头 (IP Header)
+      - 路由&寻址 (Routing & Addressing)
+        - 全局单播
+        - 本地单播
+        - 分组多播
+    - IPv4 VS IPv6
+  - NAT协议
+  - ARP协议
+    - IP地址
+    - MAC地址
+    - 交换机 VS 路由器
+  - RARP协议
+  - ND协议
+  - ICMP协议
+- **[Nginx](./SYS2015.md)**
+    - Web Server
+  - 代理服务器
+    - 正向代理
+    - 反向代理
+  - Nignx
+    - 优点
+    - 处理请求的过程
+    - Apache VS Nginx
+- **[缓存](./SYS2016.md)**
+  - 缓存
+    - 分类
+    - 缓存的特征
+      - 命中率
+      - 最大空间
+      - 淘汰策略
+    - 位置
+      - 浏览器
+      - ISP
+      - 反向代理
+      - 本地缓存
+      - 分布式缓存
+      - 数据库缓存
+      - Java内部的缓存
+      - CPU多级缓存
+    - 缓存预热
+    - 缓存更新
+    - 保证缓存与数据库的双写一致性
+    - 缓存穿透
+      - 解决方案
+    - 缓存雪崩
+      - 解决方案
+    - 缓存“无底洞”现象
+      - 产生原因
+      - 解决方案
+  - 动态、静态资源分离
+  - CDN
+    - 分发服务系统
+    - 负载均衡系统
+    - 管理系统
+- **[网络安全](./SYS2017.md)**
+  - 跨站脚本攻击
+    - 解决方案
+  - 跨站请求伪造
+    - 解决方案
+  - SQL注入攻击
+    - 骗取数据库信息
+    - 后台身份验证绕过漏洞
+    - 解决方案
+  - 拒绝服务攻击
+  - HTTPS中间人攻击
+
+## :family: SYS301 - Distributed Systems
+
+> 分布式系统的规范、原理与示例：Failure 模型、CAP、复制与多数派、Retry 与 Duplicate、跨服务一致性、Consensus、ZooKeeper、Distributed Lock。
+
+- **[Distributed Systems Fundamentals](./SYS3011.md)**
+  - 1. What Is a Distributed System
+    - Local Call vs Remote Call
+    - 组成示例
+  - 2. Failure Model
+    - Timeout ≠ Operation Failed
+  - 3. CAP理论
+    - 严谨定义
+    - 传统教学口径（保留）
+      - C 一致性（Consistence）
+      - A 可用性（Availability）
+      - P 分区容错性（Partition tolerance）
+      - C+A
+      - C+P
+      - A+P
+      - C+A+P
+  - 4. Consistency Models
+    - 线性一致性（Linearizability）
+    - 顺序一致性（Sequential Consistency）
+    - 弱一致性（Weak Consistency）
+    - 最终一致性（Eventual Consistency）
+    - 一句话对比
+  - 5. BASE理论
+    - 基本可用（Basically Available）
+    - 软状态（Soft State）
+    - 最终⼀致性（Eventual Consistency）
+    - 定位补充
+  - 6. Replication（副本）
+    - 集群
+  - 7. Quorum（法定人数）
+    - Majority（多数派）
+  - 8. Timeout / Retry / Idempotency（P0）
+    - Retry 必须有限
+    - Idempotency 的通用实现手段
+  - 9. Load Balancing（负载均衡）
+    - 负载均衡
+    - 负载均衡算法
+      - 轮询法Round Robin
+      - 随机法Random
+      - 源地址哈希法Hash
+      - 加权轮询法Weight Round Robin
+      - 加权随机法Weight Random
+      - 最小连接数法Least Connections
+      - 一致性哈希Consistent Hashing
+  - Appendix — Historical Application Architecture
+    - 单一应用架构
+      - ORM
+    - 垂直应用架构
+      - MVC
+    - 分布式服务架构
+    - 流动计算架构
+      - 面向服务的架构SOA(Service-Oriented Architecture)
+        - 优点
+        - 缺点
+    - 微服务架构模式(Microservices Architecture Pattern)
+      - 架构扩展
+      - 关键问题
+      - 常见架构设计模式
+        - 聚合器微服务设计模式
+        - 代理微服务设计模式
+        - 链式微服务设计模式
+        - 分支微服务设计模式
+        - 数据共享微服务设计模式
+        - 异步消息传递微服务设计模式
+      - 优点
+      - 缺点
+    - 通信方式
+      - WebService
+        - SOAP
+        - WSDL
+        - RESTful
+      - RPC
+        - 五个组件
+        - 消费者
+        - 生产者
+        - 通信流程
+        - 使用到的相关技术
+    - Dubbo
+      - 节点角色
+      - 负载均衡策略
+        - Random
+        - RoundRobin
+        - LeastActive
+        - ConsistentHash
+      - 容错策略
+    - 服务隔离
+      - 种类隔离
+        - 服务提供方
+        - 服务调用方
+      - 用户隔离
+    - 会话管理
+      - Sticky Session
+        - 缺点
+      - Session Replication
+        - 缺点
+      - Session Server
+        - 优点
+        - 缺点
+    - 存储的发展历史
+    - 云计算
+      - IaaS: Infrastructure-as-a-Service(基础设施即服务)
+      - PaaS: Platform-as-a-Service(平台即服务)
+      - SaaS: Software-as-a-Service(软件即服务)
+    - 负载均衡算法 Java Demo（历史代码）
+      - 轮询法Round Robin
+      - 随机法Random
+      - 源地址哈希法Hash
+      - 加权轮询法Weight Round Robin
+      - 加权随机法Weight Random
+      - 最小连接数法Least Connections
+- **[Distributed Transactions & Consensus](./SYS3012.md)**
+  - 1. Why Distributed Transactions Exist
+    - 从本地事务说起
+    - 本地事务为什么不够了
+  - 2. XA / 2PC（P0）
+    - XA规范
+    - 两阶段提交（2PC）
+      - 为什么需要2PC
+      - Phase 1：投票阶段（Prepare / Vote）
+      - Phase 2：决定阶段（Commit / Abort）
+      - 存在的问题
+        - 性能问题
+        - 单点故障
+        - 丢失消息导致数据不一致
+        - 事务状态不确定
+        - 工程视角补充
+  - 3. TCC（Try-Confirm-Cancel）
+      - Try阶段
+      - Confirm阶段
+      - Cancel阶段
+      - 对比2PC
+        - 解决了协调者单点
+        - 同步阻塞
+        - 数据一致性
+      - 工程上必须处理的坑
+  - 4. Saga
+    - Choreography（协同式）
+    - Orchestration（编排式）
+  - 5. Local Message Table（本地消息表）
+  - 6. Transactional Outbox
+  - 7. Transactional Message（事务消息）
+      - 执行流程
+  - 8. Best-Effort Notification（最大努力通知）
+      - 执行流程
+  - 9. Paxos
+    - 三种角色
+    - 两个阶段
+    - 约束条件
+      - 正确性
+      - 可终止性
+  - 10. Raft
+    - 角色
+    - Term（任期）
+    - Leader Election（竞选主节点）
+    - Log Replication（数据同步）
+    - 两个必须分清的概念
+  - Appendix
+    - 3PC（三阶段提交）
+      - CanCommit阶段
+      - PreCommit阶段
+      - DoCommit阶段
+    - Percolator
+      - 准备阶段
+      - 提交阶段
+    - Paxos 的进一步材料
+- **[ZooKeeper](./SYS3013.md)**
+  - 1. Positioning（定位）
+  - 2. Data Model（数据模型）
+    - 文件系统
+      - Znode
+      - 常用的API
+      - Znode的类型
+        - PERSISTENT 持久化目录节点
+        - PERSISTENT_SEQUENTIAL 持久化顺序编号目录节点
+        - EPHEMERAL 临时目录节点
+        - EPHEMERAL_SEQUENTIAL 临时顺序编号目录节点
+  - 3. Session（会话）
+  - 4. Watch（通知机制）
+    - 纠偏：Watch 是通知机制，不是 MQ
+  - 5. Coordination Use Cases（协调场景）
+      - 配置管理
+      - 集群管理
+      - 命名服务
+      - Leader Election
+      - 分布式锁
+  - 6. ZAB协议
+    - ZAB VS Paxos
+    - 广播模式（Broadcast）
+    - 恢复模式（Recovery）
+  - 7. Leader Election & Quorum
+    - 节点的选举状态
+    - 选举流程
+    - 为什么 Majority
+    - 为什么通常部署奇数台（voting members）
+    - Discovery / Synchronization
+      - Discovery 发现阶段
+      - Synchronization 同步阶段
+  - 8. Split Brain（脑裂）
+  - Appendix — ZooKeeper Operations
+    - Znode 属性表
+    - 队列管理
+    - 选举逐票 PK 推演（历史材料）
+    - 事务日志和快照
+    - ZooKeeper启动流程
+    - Zookeeper实战
+      - 安装部署
+      - 启动
+      - zkCli.sh客户端使用
+- **[Distributed Lock](./SYS3015.md)**
+  - 1. Correctness First：什么叫一把正确的分布式锁
+    - 先建立 Failure Model
+  - 2. Database Lock（数据库锁）
+    - 基于数据库唯一索引
+    - 基于数据库乐观锁
+    - 基于数据库悲观锁
+  - 3. Redis Lock
+    - 原则
+    - 配置
+    - 加锁
+    - 解锁
+  - 4. Lease & Expiration：租约到期问题
+  - 5. Watchdog（Redisson）
+    - 加锁
+    - 解锁
+    - watchdog
+  - 6. Fencing Token（栅栏令牌）
+  - 7. RedLock
+      - 优点
+      - 缺点
+  - 8. ZooKeeper分布式锁
+    - 保持独占
+    - 控制时序
+    - 经典模型
+    - 优点
+    - 缺点
+  - 9. Comparison：三种实现的取舍
+
+## :incoming_envelope: SYS311 - Message Queue
+
+> 消息队列基本原理，ActiveMQ、RabbitMQ、RocketMQ、Kafka、BigPipe 分析。
+
+- **[基本概念](./SYS3111.md)**
+  - 基本概念【P0】
+    - Broker
+    - Producer
+    - Consumer
+    - Message
+    - Topic
+    - Queue
+    - 一条消息的完整链路
+  - 消息模型【P0】
+    - Pub/Sub 发布订阅（广播）
+    - P2P 点对点
+    - 现实产品的模型差异
+  - 为什么使用 MQ【P0】
+    - 应用解耦
+      - 引入消息队列前
+      - 引入消息队列后
+    - 异步通信
+      - 引入消息队列前
+      - 引入消息队列后
+    - 流量错峰 / 削峰填谷
+      - 引入消息队列前
+      - 引入消息队列后
+    - 日志处理
+      - 新浪kafka日志处理应用案例
+    - 消息通讯
+      - 点对点通讯
+      - 聊天室通讯
+    - MQ 并没有消灭复杂度
+  - Delivery Semantics 投递语义【P0】
+    - Exactly-once 的边界
+  - ACK / Retry / Idempotency【P0】
+    - Outcome Unknown：结果未知
+    - ACK 不是一个统一概念
+    - 幂等的实现手段
+  - 顺序性【P0】
+  - Message Backlog / Consumer Lag【P0】
+    - 积压的本质
+    - 通用排查思路
+    - 与线程池堆积是同一个数学问题
+    - Backpressure：为什么"无限排队"不是可靠
+  - 评估一个消息中间件的维度
+  - MQ 的代价
+  - Appendix — Legacy & Reference Knowledge
+    - Appendix A — Messaging Protocols
+      - AMQP协议(二进制)
+        - Module Layer
+        - Session Layer
+        - Transport Layer
+      - MQTT协议（二进制）
+      - STOMP协议（文本）
+      - XMPP协议
+      - 其他协议
+    - Appendix B — Historical MQ Product Comparison
+      - 表格中需要修正的表述
+    - Appendix C — Disruptor
+- **[ActiveMQ](./SYS3112.md)**
+  - ActiveMQ
+- **[RabbitMQ](./SYS3113.md)**
+  - 整体架构
+    - Publisher
+    - Consumer
+    - Broker/Server（协商器/服务器）
+    - Virtual host（虚拟主机）
+    - Connection（连接）
+    - Channel（信道）
+    - Exchange（交换机）
+      - 性质
+      - 类型
+    - Binding（绑定器）
+    - Queue（队列）
+      - 性质
+    - Message（消息）
+    - Command（命令）
+  - 事务
+  - 持久化
+  - 节点类型
+    - 每个节点是其他节点的完整拷贝吗？为什么？
+  - 延迟队列
+  - 演进补充
+- **[RocketMQ](./SYS3114.md)**
+  - 特点
+  - NameServer
+- **[Kafka](./SYS3115.md)**
+  - Kafka Mental Model【P0】
+    - 最小模型
+    - 核心概念速查
+    - Topic 是逻辑的，Partition 才是边界
+    - Modern Kafka 与 ZooKeeper-era Kafka
+  - Topic 与 Partition【P0】
+    - Topic
+    - Partition
+    - 分区策略【P0】
+      - 修正与现代化
+    - 存储分布
+    - 负载均衡
+    - Partition 与顺序边界【P0】
+  - Producer【P0】
+    - Producer
+    - Producer 可靠性：acks【P0】
+      - acks=all 并不等于"永远绝对不丢"
+      - 三个 ACK 级别的完整权衡
+    - Retry机制
+      - Retry 与重复
+    - Idempotent Producer 幂等生产者【P0】
+      - 幂等生产者的边界
+  - Kafka Storage【P1】
+    - Append Log
+    - segment
+    - Offset 体系【P0】
+      - LogStartOffset
+      - ConsumerOffset
+      - HighWatermark
+      - LogEndOffset
+      - 四个 Offset 的关系
+    - Consumer 实际读取位置 ≠ 已提交位置
+    - 数据自动清除条件
+    - Kafka 为什么磁盘存储仍然快【P0】
+  - Kafka 如何实现高吞吐率【P0】
+    - 顺序读写
+    - PageCache
+      - 写数据
+      - 读数据
+    - 零拷贝
+    - 文件分段
+    - 批量发送
+    - 数据压缩
+    - Broker
+      - 网络模型：Reactor
+      - 传统阻塞IO模型存在的问题
+  - Replication & High Availability【P0】
+    - 副本角色
+    - ISR机制
+    - High Watermark
+    - Leader Epoch
+    - Controller 与 Leader 选举
+    - 判断一个 Broker 节点是否存活
+  - Consumer Group【P0】
+    - Consumer
+    - group.id
+    - Partition 分配规则【P0】
+      - 分区分配策略
+    - 消费组选主
+  - Rebalance【P0】
+    - 什么是 Rebalance
+    - Rebalance 的代价
+    - 关键参数
+    - Eager vs Cooperative Rebalancing
+    - 减少不必要的 Rebalance
+  - Consumer Lag 与消息积压【P0】
+    - Lag 的定义
+    - Lag 的两种形态
+    - 积压排查 SOP
+    - 止血策略对照
+    - 恢复之后还要做
+  - 重复消费【P0】
+    - 为什么 Kafka 会重复消费
+    - 结论
+  - Offset 先提交还是后提交【P0】
+    - 先提交 Offset，再做业务
+    - 先做业务，再提交 Offset
+    - 工程上的常见选择
+  - Consumer 幂等 SOP【P0】
+    - 方法 A：业务唯一键 + 数据库唯一约束
+    - 方法 B：状态机
+    - 方法 C：幂等记录表
+    - 三种方法的选择
+  - 顺序性【P0/P1】
+  - 事务与 Exactly-Once【P1】
+    - 生产者事务
+    - 消费者事务
+    - 流式EOS
+    - Exactly-Once 的边界【P0】
+  - 延迟队列
+    - 方案设计
+    - 重试队列和死信队列
+  - Kafka Failure & Troubleshooting【P0】
+    - 消息突然大量重复
+    - 消息疑似丢失
+    - Consumer Lag 暴涨
+    - Rebalance 频繁
+    - Producer timeout
+    - Broker failure
+    - Hot Partition
+    - Consumer processing slow
+  - Appendix — Legacy Knowledge
+    - Appendix A — ZooKeeper-era Kafka Architecture
+      - Zookeeper 的角色
+      - 判断一个Broker节点还存活的两个条件
+      - Broker选举（Controller 选举）
+      - ZooKeeper-era 与 KRaft 的对照
+    - Appendix B — Historical Kafka Internals
+      - HW 机制存在的两个历史问题
+      - Leader Epoch 如何解决这两个问题
+      - Kafka 0.9 / 0.11 的关键演进
+      - 旧版 Message 二进制格式
+    - Appendix C — Kafka CLI / Operations
+      - 部署
+      - 启动
+      - 关闭
+      - Topic指令
+        - 创建topic
+        - 查看topic列表
+        - 查看topic详情
+        - 修改topic的partition个数
+        - 删除topic
+        - 查看group列表
+        - 查看group详情
+        - 重置消费位置
+      - 收发消息指令
+        - 发送topic
+        - 订阅topic
+    - Appendix D — Legacy Java API / Configuration Examples
+      - 引用
+      - 初始化客户端连接
+      - 关闭客户端连接
+      - 查看topic列表
+      - 查看topic详情
+      - 创建topic
+      - 删除topic
+      - 管理生产者
+        - 指定发布分区策略
+        - 自定义发布者序列化策略
+        - 自定义拦截器
+      - 管理消费者
+        - 指定订阅分区策略
+        - 自定义消费者反序列化策略
+        - 自定义订阅点
+        - Offset 提交方式
+    - Appendix E — Confluent 监控指标 / Avro
+      - Confluent
+      - 监控指标
+        - 操作系统监控项
+        - Broker指标
+        - Producer以及topic指标
+        - Consumer指标
+      - Avro
+- **[BigPipe](./SYS3116.md)**
+  - BigPipe 是什么【P0】
+    - 使用场景
+    - 优势
+    - 劣势
+    - 系统层级
+  - 最小架构模型【P0】
+    - ZooKeeper
+    - Master
+    - Broker
+  - 数据模型：Pipe / Pipelet / Stripe【P0】
+    - 发布订阅模式
+    - Pipe
+    - Pipelet
+    - Stripe
+    - Message
+    - 与 Kafka 的概念对照
+    - 创建pipe流程
+    - Stripe迁移
+    - Stripe迁移触发条件
+  - 一条消息的完整链路【P0】
+    - 发布链路
+      - 消息发布流程
+    - 订阅链路
+      - 消息订阅流程
+    - Startpoint
+  - Session 与消息身份【P0】
+    - API 发布侧的 Session 语义
+    - Session ≠ TCP Connection
+    - session_msg_id 与 Broker 判重
+    - 连接与 Session 的生命周期约束
+  - 主从同步与持久化【P1】
+    - 主从同步
+      - Group commit
+      - 强一致写
+  - QueueServer 与竞争消费【P1】
+    - Queue模式
+      - 消费方式
+      - 优点
+      - 缺点
+    - QueueServer结构
+      - 特点
+    - Backpressure：window_size / suspend / resume
+  - 客户端API
+    - API常用逻辑
+      - API路由
+      - API订阅
+    - 各语言客户端
+  - bigpipe4j — Java SDK【P0｜个人 Ownership 核心】
+    - 为什么需要这个 SDK
+    - 层级
+    - Meta类
+    - Writer & Reader类
+    - 三个 Writer 怎么选
+    - Client类
+    - Publisher & Subscriber类
+    - 异步发布为什么必须有 Message Window【P0】
+    - NIO Reactor 在 bigpipe4j 中解决的具体问题
+    - Queue类
+    - Exception类
+    - Tool类
+  - BigPipe vs Kafka【P0】
+    - 表中需要修正的表述
+    - 更完整的对照维度
+    - 不要这样说 / 应该这样说
+  - BigPipe 线上问题排查【P1】
+    - 发布侧反复报 2504 / 2506
+    - Session 冲突（errno 6006 / BMQ_E_ALREADYINUSE）
+    - sessionId 泛滥冲击 ZooKeeper
+    - 订阅莫名停住，不再收到消息
+    - 消息积压 / 回放打热 Broker
+    - 发布遇到限流
+    - 发布成功但下游没收到 / 怀疑丢消息
+  - 个人 Ownership 边界【P0】
+    - 可以明确说的 [A]
+    - 不能说的
+    - 三种知识的使用方式
+    - 2019 春晚红包怎么讲
+    - 最有说服力的一条主线
+  - Appendix — Historical BigPipe Implementation Details
+    - Appendix A — Broker 错误码
+    - Appendix B — QueueServer 内部结构
+    - Appendix C — Queue 控制台
+    - Appendix D — Webservice（HTTP 接入）
+    - Appendix E — C/C++ 客户端与已停用 API
+    - Appendix F — Stripe 粒度 GC 与历史容量限制
+
+## :atm: SYS401 - System Design
+
+> 系统设计通用方法论与支付金融系统设计实践。
+
+- **[常见系统设计](./SYS4011.md)**
+  - 要注意的问题
+    - 提高硬件能力、增加系统服务器
+    - 分层
+    - 分割
+    - 使用缓存
+    - 消息队列
+    - 分布式开发
+    - 分库分表
+    - 集群
+    - 冗余
+  - 秒杀系统
+  - 微信支付系统
+    - 业务流程
+    - 如何保证幂等性
+      - 乐观锁
+      - 防重表
+      - 分布式锁
+      - Token令牌
+      - 异步处理
+- **[PayPal Solphin API Design Tool](./SYS4012.md)**
+  - 6000+ API 不能全部塞给模型
+  - 模型会生成不存在但非常合理的 API
+  - 一个大 Agent 权限太大、Context 太杂
+  - Context 必须被主动管理
+  - LLM 输出必须进入可验证的软件工程流程
+- **[PayPal China (GoPay) Onboarding](./SYS4013.md)**
+- **[PayPal Mexico Rune Compliance](./SYS4014.md)**
+- **[中信银行跨境电商](./SYS4015.md)**
+  - 1. 项目定位
+    - 建设历程（系统事实，非个人规模）
+  - 2. 进口 / 出口业务
+    - 进口完整业务步骤
+  - 3. 核心业务概念
+    - 集中购汇
+    - 实时购汇
+    - 集中付汇
+    - 还原申报
+    - 预购汇
+  - 4. 账户与资金
+  - 5. 系统架构
+    - 监管体系速查
+  - 6. UCP / BP Java 开发模型
+    - FO / BP / Base
+    - BP 核心结构
+    - 请求处理流程
+    - ServiceFlow 开发模式
+    - Context
+    - 后台任务与监控
+  - 7. 文件批处理
+  - 8. 幂等、防重与状态
+    - 正确思想不是立即重做
+    - 状态机思想
+    - 事务边界
+  - 9. 对账与差错
+  - 10. 交易安全
+  - 11. 支付宝专项
+    - 多笔解付登记簿
+  - 12. Ownership
+    - 简历口径与待考古项
+  - 13. 60 秒项目介绍
+  - 14. 面试重点
+    - 追问清单
+    - 记忆骨架
+  - Appendix — Historical Reference
+    - 出口收结汇 / 卖家体系
+    - CBECServer 工程结构
+    - 配置体系
+    - 数据模型字段（历史记录）
+    - DB2 与环境
+    - 功能架构清单
+    - 报文与通信
+    - BP 启动过程（历史细节）
+- **[中信银行出国金融](./SYS4016.md)**
+  - 1. 出国金融
+  - 2. 留学汇
+  - 3. 院校白名单：Problem
+  - 4. 白名单设计与实现（本人 Ownership）
+    - 导入与状态
+    - Component 设计
+    - 可恢复出的处理逻辑
+  - 5. 为什么不是"只是 CRUD"
+    - 推荐讲述结构
+  - 6. 已确认能力
+  - 7. 数据一致性
+  - 8. 审核与权限
+  - 9. Scrum Master / Delivery
+  - 10. 本人 Ownership
+  - 11. 60 秒项目介绍
+  - 12. 面试重点
+    - 追问清单
+  - Appendix — Business Context
+    - 出国金融产品体系（2018）
+    - ECPS 与渠道规模（笔记口径）
+- **[Amazon China Checkout](./SYS4017.md)**
+  - 1. Checkout 到 Payment
+    - Checkout 前台链路
+    - 订单流程总览
+  - 2. 已知系统地图
+  - 3. Checkout 与 Payment Capability
+    - 订单结算
+  - 4. Payment Plan Creation
+    - 金额/业务粒度
+    - 相关概念
+    - 微信支付链路
+  - 5. Order Workflow 与 Payment Execution
+    - Order Workflow 主线
+    - COW流程
+    - PCESIL：订单语言到支付语言的适配层
+  - 6. 外联平台 Beach / Harbor
+    - 模式
+    - WeChatPay online流程
+    - Batch流程
+  - 7. 外部支付的可靠性
+  - 8. Refund
+  - 9. Checkout / Payment 与 USP
+  - 10. Ownership
+  - 11. 60 秒项目介绍
+  - 12. 面试重点
+  - Appendix — Legacy Systems
+    - PPES / SEALS / HOPS / VBS
+    - Processor Selection / MAPS
+    - EPO 在 PCES 中的执行链
+    - EPG（Execution Plan Generator）
+- **[Amazon China Unified Settlement Platform](./SYS4018.md)**
+  - 1. USP 一句话
+  - 2. Payment vs Settlement
+  - 3. 为什么需要 USP
+    - 立项背景
+  - 4. 端到端链路
+  - 5. Domain Model
+    - Settlement 真实字段（样例）
+  - 6. 核心架构
+  - 7. Remittance → Transaction
+  - 8. Kinesis 与 SQS
+    - 面试停止线
+  - 9. Settlement Generator
+  - 10. Instruction → Vendor
+  - 11. Notification / Reconciliation
+  - 12. Storage
+    - S3
+    - DynamoDB
+  - 13. Settlement / Execution / Event
+  - 14. Reliability & Recovery
+  - 15. Check Rules
+  - 16. Managers / Repository
+  - 17. 自动恢复 + 人工补偿
+  - 18. Reconciliation
+  - 19. Observability / Operations
+  - 20. AWS 技术栈
+  - 21. Ownership
+  - 22. 60--90 秒项目介绍
+  - 23. 面试重点
+    - 追问地图
+    - 记忆主线
+  - 24. 如果今天重新设计
+  - Appendix — Fact Discipline & Abbreviations
+    - Fact Discipline
+    - 缩写表
+- **[中国支付结算体系](./SYS4019.md)**
+  - 基本概念
+    - 清算
+      - 清分
+      - 结算
+  - 体系概述
+    - 人行支付系统
+      - 内部结构
+      - 第一代 VS 第二代
+      - 参与方
+      - 业务流程
+    - 银联支付清算
+      - 业务流程
+      - 清算种类
+    - 网联支付清算
+      - 直连模式
+      - 网联模式
+    - 银联 VS 网联
+
+## :chains: SYS411 - Blockchain
+
+> 分布式账本原理、不可篡改机制、共识算法，以及区块链与比特币的区别。
+
+- **[区块链基础](./SYS4111.md)**
+  - 什么是区块链【P0】
+    - 中心化账本 vs 分布式账本【P0】
+  - 区块与链的结构【P0】
+  - Merkle 树【P1】
+  - 节点角色【P1】
+  - 出块、同步与确认【P0】
+  - 应用领域【P1】
+  - 本章面试主线
+- **[不可篡改机制](./SYS4112.md)**
+  - 保证数据不可篡改的机制【P0】
+  - 哈希函数为什么可信【P0】
+  - 篡改一个块的连锁反应【P0】
+  - 51% 攻击能做什么、不能做什么【P0】
+  - "不可篡改"的准确表述【P0】
+  - 本章面试主线
+- **[共识算法](./SYS4113.md)**
+  - 为什么需要共识【P0】
+  - PoW 工作量证明【P0】
+  - PoS 权益证明【P0】
+  - DPOS 委任权益证明【P1】
+  - PBFT【P0】
+  - 四种共识算法对比【P0】
+  - Appendix：Raft 与 PBFT 的关系
+- **[区块链 VS 比特币](./SYS4114.md)**
+  - 本质区别【P0】
+  - 算法【P1】
+  - 交易速度【P0】
+  - 链接形式：公有链 / 私有链 / 联盟链【P0】
+  - 比特币关键参数速查【P1】
+    - UTXO vs 账户模型【P1】
+  - 局限性【P0】
+  - 区块链未来会应用到哪些领域？【P1】
+  - 本章面试主线
+
