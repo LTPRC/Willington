@@ -42,9 +42,9 @@ JVM的定义、构造，垃圾回收原理。
 
 线上Java服务的故障排查SOP、性能诊断与JVM调优主战手册。
 
-:package: CSE401 - [Spring](./CSE401.md)
+:package: CSE401 - [Spring Ecosystem](./CSE401.md)
 
-从两眼一抹黑到由浅到深逐步理解的Spring框架知识强化。
+从两眼一抹黑到由浅到深逐步理解的Spring框架知识强化。Spring Framework Core、Spring Boot、Spring Web、Spring Cloud、Spring Data Access，历史知识与现代实践并存。
 
 :books: DBA101 - [MySQL](./DBA101.md)
 
