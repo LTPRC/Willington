@@ -1849,6 +1849,7 @@
     - 人话解释
     - 读取
     - 更新
+    - 为什么删除缓存，而不是更新缓存？
     - 放回系统
     - 面试回答【30-60 秒】
   - 为什么不简单同时更新 DB 和 Redis？【P0】
@@ -1875,6 +1876,11 @@
     - 方案
     - 面试回答【30-60 秒】
     - 秒答区分
+  - 缓存“无底洞”现象【P1】
+    - 产生原因
+    - 解决方案
+  - 缓存预热【P1】
+  - 缓存更新【P1】
   - 资金类数据的 Source of Truth【P0++】
     - 结论
     - 面试回答【30-60 秒】
@@ -2347,7 +2353,7 @@
     - 优点
     - 处理请求的过程
     - Apache VS Nginx
-- **[缓存](./SYS2016.md)**
+- **[缓存与内容分发](./SYS2016.md)**
   - 缓存
     - 分类
     - 缓存的特征
@@ -2363,16 +2369,6 @@
       - 数据库缓存
       - Java内部的缓存
       - CPU多级缓存
-    - 缓存预热
-    - 缓存更新
-    - 保证缓存与数据库的双写一致性
-    - 缓存穿透
-      - 解决方案
-    - 缓存雪崩
-      - 解决方案
-    - 缓存“无底洞”现象
-      - 产生原因
-      - 解决方案
   - 动态、静态资源分离
   - CDN
     - 分发服务系统
@@ -2392,7 +2388,7 @@
 
 ## :family: SYS301 - Distributed Systems
 
-> 分布式系统的规范、原理与示例：Failure 模型、CAP、复制与多数派、Retry 与 Duplicate、跨服务一致性、Consensus、ZooKeeper、Distributed Lock。
+> 分布式系统的规范、原理与示例：Failure 模型、CAP、复制与多数派、Retry 与 Duplicate、RPC、跨服务一致性、Consensus、ZooKeeper、Distributed Lock。
 
 - **[Distributed Systems Fundamentals](./SYS3011.md)**
   - 1. What Is a Distributed System
@@ -2460,25 +2456,7 @@
         - 异步消息传递微服务设计模式
       - 优点
       - 缺点
-    - 通信方式
-      - WebService
-        - SOAP
-        - WSDL
-        - RESTful
-      - RPC
-        - 五个组件
-        - 消费者
-        - 生产者
-        - 通信流程
-        - 使用到的相关技术
-    - Dubbo
-      - 节点角色
-      - 负载均衡策略
-        - Random
-        - RoundRobin
-        - LeastActive
-        - ConsistentHash
-      - 容错策略
+    - 通信方式 / RPC / Dubbo（已迁出，见 SYS3014）
     - 服务隔离
       - 种类隔离
         - 服务提供方
@@ -2602,6 +2580,65 @@
       - 安装部署
       - 启动
       - zkCli.sh客户端使用
+- **[RPC](./SYS3014.md)**
+  - 1. RPC 是什么
+    - 经典定义（保留）
+    - 五个组件
+    - 调用链视角：消费者与生产者
+    - 一次 RPC 的通信流程
+    - 实现相关技术：动态代理 / 序列化 / NIO
+  - 2. RPC 和 HTTP 什么关系
+  - 3. 服务通信方式谱系：WebService / SOAP / WSDL / RESTful
+    - WebService
+      - SOAP
+      - WSDL
+      - RESTful
+  - 4. 主流 RPC 框架：gRPC / Protobuf / brpc / Dubbo
+    - gRPC
+    - Protobuf
+    - brpc
+    - Dubbo
+      - 节点角色
+      - 负载均衡策略
+        - Random
+        - RoundRobin
+        - LeastActive
+        - ConsistentHash
+      - 容错策略
+  - 5. 服务注册与发现
+    - 排查视角：Control Plane vs Data Plane
+  - 6. 调用可靠性：Timeout / Retry / Idempotency
+    - Timeout 是资源边界
+    - 能不能重试：先过一遍检查表
+  - 7. RPC Server 生产实践（P0）
+    - 一次请求到底经过哪些层
+    - 从 Selector 到 Reactor：事件如何被调度
+      - 【错题本·真实追问】epoll_wait() 是什么
+    - 为什么 IO Thread 和 Business Thread 要分开
+    - RPC Server 高性能 SOP：按 8 层回答【P0｜错题本】
+      - Step 1｜连接模型
+      - Step 2｜IO 模型
+      - Step 3｜线程模型
+      - Step 4｜协议 / 序列化
+      - Step 5｜业务处理
+      - Step 6｜下游依赖
+      - Step 7｜过载保护 / Backpressure
+      - Step 8｜Observability
+      - 60 秒标准答案
+    - 线程池满了：不要第一反应"加线程"
+    - 接口突然变慢：排查 SOP
+    - 最容易答错的 8 个点
+    - 统一知识地图（RPC 视角）
+  - 8. 面试秒答（30-60 秒）
+    - Q：RPC 是什么？
+    - Q：RPC 和 HTTP 什么关系？
+    - Q：gRPC / Protobuf 是什么？
+    - Q：brpc 是什么？
+    - Q：Dubbo 是什么？
+    - Q：为什么 Timeout 不能直接认为失败？
+    - Q：Reactor 是什么？
+    - Q：为什么 Reactor 不能直接做业务？
+    - Q：RPC Server 怎么做高性能？
 - **[Distributed Lock](./SYS3015.md)**
   - 1. Correctness First：什么叫一把正确的分布式锁
     - 先建立 Failure Model
