@@ -1585,37 +1585,51 @@
       - 行
     - Buffer Pool 与脏页【P0】
     - 面试回答
-  - 4. 双写 Double Write【P2】
-  - Redo Log 的两个反事实【P2】
-    - 如果没有redo log只有undo log
-    - 如果没有undo log只有redo log
-  - Redo Log（重做日志）
-    - 作用
-    - WAL(Write-Ahead Logging)【P0】
-    - Force-log-at-commit
-    - 内容
-    - 什么时候产生
-    - 什么时候释放
-    - 刷盘机制
-  - Undo Log（回滚日志）
-    - 作用
-    - 内容
-    - 什么时候产生
-    - 什么时候释放
-  - Binlog（二进制日志）
-    - 作用
-      - 主从同步
-      - 用于数据库的基于时间点的还原
-    - 内容
-    - 什么时候产生
-    - 什么时候释放
-  - 三者对比表【P0】
+  - 索引是什么？【P0】
+    - 定义
+    - 为什么需要（磁盘视角）
+    - 优点
+    - 缺点
+    - 局限性
+    - 使用方式
+      - 面试回答
+  - 为什么是 B+Tree？【P0】
+    - B树
+      - B树的优点
+    - B+树
+      - B+树的优点
+      - 面试回答
+  - 聚簇索引与二级索引【P0】
+    - InnoDB：聚簇索引
+      - 自增主键 vs 非自增主键
+    - 二级索引与回表
+    - MyISAM：非聚簇索引
+      - 面试回答
+  - 覆盖索引【P0】
+    - 优点
+    - 存储引擎差异
     - 面试回答
-    - Redo 和 Binlog 为什么都需要？【P1】
-  - 如果不使用两阶段提交
-    - 先写redo log后写binlog
-    - 先写binlog再写redo log
+  - 联合索引与最左前缀【P0】
     - 面试回答
+  - 索引分类【P1】
+    - 主键 Primary key
+    - 普通索引 Normal Index
+    - 唯一索引 Unique Index
+    - 全文索引 Fulltext Index
+    - 联合/组合索引 Union Index
+    - 外键
+    - 哈希索引
+      - 缺点
+      - 存储引擎
+    - 空间数据索引【P2】
+      - 面试回答
+  - 索引利用问题：不要背口诀【P0】
+    - 面试回答
+  - 数据库文件【P2】
+    - 表结构文件
+    - InnoDB数据文件
+    - MyISAM数据文件
+  - 12. 双写 Double Write【P2】
   - 自增id
   - row id
   - Xid
@@ -1633,6 +1647,37 @@
     - 例子
     - 放回系统
     - 面试回答
+  - Redo Log（重做日志）
+    - 作用
+    - WAL(Write-Ahead Logging)【P0】
+    - Force-log-at-commit
+    - 内容
+    - 什么时候产生
+    - 什么时候释放
+    - 刷盘机制
+  - Undo Log（回滚日志）
+    - 作用
+    - 内容
+    - 什么时候产生
+    - 什么时候释放
+  - 为什么 InnoDB 需要两套日志分工
+    - 如果没有redo log只有undo log
+    - 如果没有undo log只有redo log
+  - Binlog（二进制日志）
+    - 作用
+      - 主从同步
+      - 用于数据库的基于时间点的还原
+    - 内容
+    - 什么时候产生
+    - 什么时候释放
+  - 三者对比表【P0】
+    - 面试回答
+    - Redo 和 Binlog 为什么都需要？【P1】
+  - 两阶段提交
+    - 如果不使用两阶段提交
+      - 先写redo log后写binlog
+      - 先写binlog再写redo log
+      - 面试回答
   - 更新丢失
     - 回滚丢失
     - 覆盖丢失/两次更新问题
@@ -1683,65 +1728,35 @@
   - 常见优化
     - 面试回答
   - 本章验收
-- **[DBA1013 - 索引、EXPLAIN 与 SQL 优化](./DBA1013.md)**
+- **[DBA1013 - EXPLAIN 与 SQL 优化](./DBA1013.md)**
   - 本章主线
-  - 定义
-  - 为什么需要（磁盘视角）
-  - 优点
-  - 缺点
-  - 局限性
-  - 使用方式
-    - 面试回答
-  - B树
-    - B树的优点
-  - B+树
-    - B+树的优点
-    - 面试回答
-  - InnoDB：聚簇索引
-    - 自增主键 vs 非自增主键
-  - 二级索引与回表
-  - MyISAM：非聚簇索引
-    - 面试回答
-    - 优点
-    - 存储引擎差异
-    - 面试回答
-    - 面试回答
-  - 主键 Primary key
-  - 普通索引 Normal Index
-  - 唯一索引 Unique Index
-  - 全文索引 Fulltext Index
-  - 联合/组合索引 Union Index
-  - 外键
-  - 哈希索引
-    - 缺点
-    - 存储引擎
-  - 空间数据索引【P2】
-    - 面试回答
-  - 先记五个字段【P0】
-  - type 怎么看【P0】
-  - key / rows / Extra【P0】
-    - 面试回答
-  - 展开为可口述的步骤
-  - 例子
-    - 面试回答
-  - 使用场景
-  - 全字段排序
-  - RowId排序
-  - 假分页 vs 真分页
-  - 深分页问题
-  - 避免回表查询
-  - 索引下推 ICP（Index Condition Pushdown）
-    - 启动方式
-    - 使用条件
-  - 使用前缀索引
-  - 更新频繁的字段上不宜建立索引
-  - 索引列的顺序
-  - 使用场景
-    - WHERE
-    - JOIN
-    - 表结构文件
-    - InnoDB数据文件
-    - MyISAM数据文件
+  - EXPLAIN【P0】
+    - 先记五个字段【P0】
+    - type 怎么看【P0】
+    - key / rows / Extra【P0】
+      - 面试回答
+  - 慢 SQL 排查 SOP【P0】
+    - 展开为可口述的步骤
+    - 例子
+      - 面试回答
+  - ORDER BY 原理【P1】
+    - 使用场景
+    - 全字段排序
+    - RowId排序
+  - 分页与深分页【P1】
+    - 假分页 vs 真分页
+    - 深分页问题
+  - 索引优化实践【P1】
+    - 避免回表查询
+    - 索引下推 ICP（Index Condition Pushdown）
+      - 启动方式
+      - 使用条件
+    - 使用前缀索引
+    - 更新频繁的字段上不宜建立索引
+    - 索引列的顺序
+    - 使用场景
+      - WHERE
+      - JOIN
   - 本章验收
 - **[DBA1014 - 全文检索与倒排索引](./DBA1014.md)**
   - 本章定位
