@@ -22,9 +22,9 @@ Java 语言核心主线：语法基础、面向对象、异常处理、反射、
 
 23种常见设计模式以及部分代码实现。
 
-:1234: CSE274 - [Data Structure and Algorithms](./CSE274.md)
+:1234: CSE274 - [Data Structure](./CSE274.md)
 
-数据结构与算法的概念主线辅以 Java 实现。集合、表、字符串、二叉树、数学题/智力题已成篇；链表、排序、图、动态规划、位运算等主题仍在补齐。
+数据结构的概念主线辅以 Java 实现。集合、表、字符串已成篇；配套的算法与题解主线见 MTH300。
 
 :vertical_traffic_light: CSE301 - [Java Virtual Machine](./CSE301.md)
 
@@ -53,6 +53,10 @@ JVM 面试主线：体系结构、类加载与双亲委派、运行时数据区�
 :memo: DBA201 - [Redis](./DBA201.md)
 
 缓存 / NoSQL 主章节：数据结构与 TTL、过期与淘汰策略、Cache Aside 与穿透/击穿/雪崩、DB 与缓存一致性、分布式锁与 Redisson Watchdog、持久化与 Sentinel/Cluster 高可用。
+
+:abacus: MTH300 - [Algorithms](./MTH300.md)
+
+算法与题解主线：二叉树、数学题/智力题、工程编码题已成篇；矩阵、链表、排序、图、动态规划、位运算等主题仍在补齐。
 
 :penguin: SYS151 - [Linux Commands](./SYS151.md)
 
