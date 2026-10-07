@@ -1212,12 +1212,12 @@
 - **[11. Interview Incident Playbook](./CSE381.md)**
   - Case 1：线上 CPU 突然 100%
   - Case 2：服务发生 OOM
-  - Case 3：内存持续上涨，是不是 Memory Leak？
-  - Case 4：Full GC 突然频繁
-  - Case 5：接口 RT 从 100ms 变成 3s
-  - Case 6：线程数突然暴涨
-  - Case 7：线程池打满
-  - Case 8：Java 服务假死但进程还在
+  - Case 3：接口 RT 从 100ms 变成 3s
+  - Case 4：Java 服务假死但进程还在
+  - Case 5：Full GC 突然频繁
+  - Case 6：内存持续上涨，是不是 Memory Leak？
+  - Case 7：线程数突然暴涨
+  - Case 8：线程池打满
 - **[PermGen 时代（JDK 7 及以前）](./CSE381.md)**
 - **[CMS 专项（已弃用：JDK 9 弃用，JDK 14 移除）](./CSE381.md)**
   - promotion failed 与 concurrent mode failure
