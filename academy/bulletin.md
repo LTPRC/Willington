@@ -72,7 +72,11 @@ Linux 日常操作主线：常用目录与命令、网络排查命令，外加 G
 
 :globe_with_meridians: SYS201 - [Computer Networks](./SYS201.md)
 
-计算机网络面试主线：体系结构与 HTTP/TCP/IP 三大协议，以及工程上绕不开的 Nginx、缓存与网络安全。
+计算机网络面试主线：体系结构与 HTTP/TCP/IP 三大协议，DNS 解析体系与 DNSSEC，以及工程上绕不开的 Nginx、缓存与网络安全。
+
+:label: SYS202 - [Domain Name Registry Services](./SYS202.md)
+
+域名注册行业的后端服务主线：注册局/注册商/RSP 的职责分工、EPP 协议与对象模型、域名生命周期与状态码、RDAP 与 WHOIS 查询服务、Data Escrow 与合规运营、TLD 权威 DNS 与 DNSSEC 运营。
 
 :family: SYS301 - [Distributed Systems](./SYS301.md)
 
