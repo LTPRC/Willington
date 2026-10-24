@@ -88,7 +88,7 @@ Linux 日常操作主线：常用目录与命令、网络排查命令，外加 G
 
 :atm: SYS401 - [System Design](./SYS401.md)
 
-系统设计的通用方法论与支付金融系统的设计实践。
+系统设计的通用方法论、支付金融系统设计实践，以及 SSE 与 Agent 工作台等实时、人工在环场景。
 
 :chains: FIN381 - [Blockchain](./FIN381.md)
 
